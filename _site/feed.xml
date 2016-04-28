@@ -6,37 +6,9 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Apr 2016 16:46:27 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Apr 2016 16:46:27 -0500</lastBuildDate>
+    <pubDate>Thu, 28 Apr 2016 11:33:04 -0500</pubDate>
+    <lastBuildDate>Thu, 28 Apr 2016 11:33:04 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 27 Apr 2016 09:53:47 -0500</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/04/27/welcome-to-jekyll-copy.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/04/27/welcome-to-jekyll-copy.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
       <item>
         <title>TED Talk with Simon Sinek</title>
@@ -49,6 +21,96 @@
         <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/2016/04/27/TED-Talk-with-Simon-Sinek.html</link>
         <guid isPermaLink="true">http://yourdomain.com/2016/04/27/TED-Talk-with-Simon-Sinek.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Super Happy Weekend Fun</title>
+        <description>&lt;p&gt;Or as Iron Yard alumni call it: Hackathon.&lt;/p&gt;
+
+&lt;p&gt;The official title of this past weekends homework is quite simply, “Group Project.” However, it did not take long for all the students to begin coming up with their more elaborate, perhaps appropriate names:&lt;/p&gt;
+
+&lt;p&gt;“My Brain is Fried Weekend”&lt;/p&gt;
+
+&lt;p&gt;“They Trapped Us Marathon”&lt;/p&gt;
+
+&lt;p&gt;“Save Me Now Extravaganza”&lt;/p&gt;
+
+&lt;p&gt;But my personal favorite may be “Super Happy Fun Weekend.” This is most likely because it conveys both truth and sarcasm. Yes we were not exactly thrilled to be spending our entire weekend on campus hacking away. But truth be told, there were fun times as well. Going out to lunch, taking a break in the afternoon to play a card game, or laughing about finally figuring out why the code was broken all contributed to this fun.&lt;/p&gt;
+
+&lt;p&gt;But like all things there were important lessons learned as well. This project, I have learned in retrospect, was all about coding together as a team. This made the design aspect of the project more difficult. It’s easier when the only person you have to convince is yourself. It’s a whole different animal when you have to persuade a team to trust you on your idea(s). Yet, I remained confident in my plans. Without outwardly voicing it, I did my best to silently persuade my team to, “Trust me.”&lt;/p&gt;
+
+&lt;p&gt;But that wasn’t the only challenge I faced.&lt;/p&gt;
+
+&lt;p&gt;Looking at the page in its entirety, once I have completed MVP, provides me a chance to go back and make corrections and improvements. By the time the JavaScript was working the way it needed to and I had finally completed the initial completion on designs I mocked-up, I did not have much time to sit and think about what would make the page look better.&lt;/p&gt;
+
+&lt;p&gt;Indeed, the page looked incomplete to me when we presented it. A professional site would have looked much better. Right before we presented it dawned on me what could make the site better:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I need a more pronounced header in the whitespace!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But by that point, there were only 15 minutes or so on the timer. The site would have to remain as it sat, and be shown to everyone else none the less, no matter what I thought of how it looked. Not to mention that more improvements and corrections were going to have to be done before the site was anywhere near where I thought it should look. Yup, 15 minutes isn’t enough time.&lt;/p&gt;
+
+&lt;p&gt;So what’s the lesson? I can’t wait for me to finish the MVP for other ideas to come to the surface. I need to look at sketches and mock-ups and sketches long-before, and start deciphering what elements are missing or need to be tweaked.&lt;/p&gt;
+
+&lt;p&gt;I also need to ask for more feedback and heed advice during the whole process. At this point it’s becoming clear to me that one can never ask for too much feedback. Having another pair of eyes definitely opens more doors for improvement. Want proof? A classmate had given me advice earlier in the weekend. What did he tell me? Put a more pronounced header in the site. Ugh, I had that advice staring me right in the face and didn’t pay enough attention to it.&lt;/p&gt;
+
+&lt;p&gt;So don’t just ask for advice. Listen. At least try it even if you don’t think it’s going to work.&lt;/p&gt;
+
+&lt;p&gt;Lessons learned. And maybe next time I will not only have fun, but come away with a more complete, professional looking design.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2016/04/13/Fun-Weekend.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/04/13/Fun-Weekend.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>It&#39;s Going</title>
+        <description>&lt;p&gt;Over the past 6 weeks people have been asking me, “How is it going?” I don’t usually have a great answer for them, and I chalk up some lame response like, “It’s Going.” Part of this part-dismissive response may be for more than reason:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“I’m working here!”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is perhaps what I would like to say.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Back off. Leave me alone. If you’re going to interrupt, there better be food involved.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But that would be rude, so instead I reply, “It’s going.”&lt;/p&gt;
+
+&lt;p&gt;As I have been going through the learning process these past few weeks, it is easy to get very involved, very attuned to whatever it is I’m currently working on. Outside noises, smells, prying questions are just distractions I do not want to be interrupted with. And so me replying, “It’s going”, is my way of absently dismissing whoever is asking about the current progress (or lack thereof) I am experiencing.&lt;/p&gt;
+
+&lt;p&gt;Yet I have noticed that when this happens, it’s not as frequent as I may be thinking. If someone, such as my wife, comes up and asks how things are going it’s because she hasn’t seen me up and walking around for a while. I need to take that as a clue, that it’s time for a break. Doesn’t have to be a long one, but it is productive to take half an hour even and just stand up and walk around. Get my mind off of the project, protect my eyes from the screen, limit the carpal tunnel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Not Sure….”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an honest and polite answer.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I don’t know how much I have left.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I have learned that there is so much trial and error in coding. This past weekend we were working on a personal re-work of the LinkedIn home page. We were required to start with sketches, wireframe mockups, full mockups, and coding the page itself and making it responsive. We needed to include at least one JQuery in our code. And we needed to follow and existing style guide, mine was the U.S. Gov webpage. Once the page was coded and complete, we needed to do a rapid prototype with another style guide, which for me was the HealthCare.Gov webpage.&lt;/p&gt;
+
+&lt;p&gt;I didn’t realize until Sunday afternoon that this was a lot to get done in a short amount of time.&lt;/p&gt;
+
+&lt;p&gt;Getting the JQuery to work took me a while to figure out. During this time, I was asked, “How’s it going?” And honestly, I didn’t know. I could fix one id tag and it could work. I could be doing this completely wrong and need to start all over. I just didn’t know the answer for sure. And so, very politely, I answered, “It’s going.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“I’m making progress”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another honest answer, but more as a re-assurance to myself as opposed to someone asking me how everything was going.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is taking a long time….but it’s getting done. Keep going. You can do this.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, coding is a lot of work. This past weekends LinkedIn project was a lot of work. The projects we have had to complete before this one were a lot of work. But I am doing this. I am coding. That’s awesome.&lt;/p&gt;
+
+&lt;p&gt;When a project may seem daunting, and it’s inevitable that there is going to be a lot of work to be done, I just need to know that I can do this. There were many steps to be completed on the LinkedIn project, but tenacity and hard work paid off. And when frustration, anger, restlessness, joy(the JQuery finally worked) all reared up, I told myself, “It’s going.”&lt;/p&gt;
+
+&lt;p&gt;“It’s going” has become a powerful, small, phrase for me. Not for one of dismissive passivity towards inquiring friends and family, but as a motivational tool. One that reminds me of the importance of the project and the need for continued progress. But also, maybe most importantly, that I can do this and am learning and getting better everyday.&lt;/p&gt;
+
+&lt;p&gt;With that thought in mind, “It’s going” may be a phrase I use frequently going forward.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Apr 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2016/04/07/Its-Going.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/04/07/Its-Going.html</guid>
         
         
       </item>
