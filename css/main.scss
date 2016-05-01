@@ -259,6 +259,10 @@ a.splash-arrow:hover {
 	text-align: center;
 }
 
+.post-header{
+	text-align: center;
+}
+
 .post-list{
 	list-style-type: none;
 	text-align: left;
@@ -266,7 +270,26 @@ a.splash-arrow:hover {
 
 	a{
 		text-decoration: none;
+		color: $MainFontColor;
 	}
+
+	a:hover{
+		color: $HeaderHoverColor;
+	}
+}
+
+.post-title{
+	font-size: $MainContentHeaderSize;
+	margin: 1em auto 1em auto;
+
+}
+
+.post-meta{
+	margin: 1em auto 0 auto;
+}
+
+.post-content{
+	margin: 2em auto 0 auto;
 }
 
 

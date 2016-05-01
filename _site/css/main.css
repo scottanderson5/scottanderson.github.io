@@ -297,9 +297,25 @@ a.splash-arrow:hover {
   font-family: Fira Sans;
   text-align: center; }
 
+.post-header {
+  text-align: center; }
+
 .post-list {
   list-style-type: none;
   text-align: left;
   margin: 0 auto; }
   .post-list a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #282828; }
+  .post-list a:hover {
+    color: #FF6603; }
+
+.post-title {
+  font-size: 72px;
+  margin: 1em auto 1em auto; }
+
+.post-meta {
+  margin: 1em auto 0 auto; }
+
+.post-content {
+  margin: 2em auto 0 auto; }
