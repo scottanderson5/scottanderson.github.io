@@ -295,6 +295,7 @@ a.splash-arrow:hover {
 
 .post-content{
 	font-weight: $MainContentFontWeight;
+	text-align: left;
 	margin: 2em auto 0 auto;
 	line-height: 1.4em;
 	font-size: 1.2em;
@@ -315,6 +316,7 @@ a.splash-arrow:hover {
 .work-row{
 	margin: 0 auto 2em auto;
 	overflow: hidden;
+	text-align: center;
 }
 
 .work-pictureA{

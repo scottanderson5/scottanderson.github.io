@@ -16,7 +16,7 @@ permalink: /blog/
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <span class="post-excerpt">
-          <p>Simon Sinek, an author and speaker who specializes in leadership managment, gave a TED talk in 2009. During that speech he described what he called the “Golden Circle.”
+          <p>{{ post.excerpt | truncatewords: 75 }}
           </p>
         </span>  
       </li>

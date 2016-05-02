@@ -4,7 +4,9 @@ title:  "It's Going"
 date:   2016-04-7 
 ---
 
-Over the past 6 weeks people have been asking me, “How is it going?” I don’t usually have a great answer for them, and I chalk up some lame response like, “It’s Going.” Part of this part-dismissive response may be for more than reason:
+Over the past 6 weeks people have been asking me, “How is it going?” I don’t usually have a great answer for them, and I chalk up some lame response like, “It’s Going.” 
+
+Why am I saying this? Honestly, I give this answer so much now it's as if I'm on auto-pilot. But I think I might provide this part-dismissive response for more than reason:
 
 **“I’m working here!”**
 
