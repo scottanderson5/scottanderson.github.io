@@ -199,7 +199,7 @@ a.splash-arrow:hover {
     font-size: 1.5em; } }
 .header-wrap {
   background-color: #46806E;
-  height: 6em;
+  height: 5.8em;
   position: relative; }
 
 .site-header {
@@ -237,7 +237,7 @@ a.splash-arrow:hover {
 
 .trigger {
   float: right;
-  padding: 1.6em 1em 1em 1em; }
+  padding: 1.4em 1em 1em 1em; }
   .trigger a {
     text-decoration: none;
     color: #EEEBE8; }
@@ -266,7 +266,7 @@ a.splash-arrow:hover {
 
 .logo {
   width: 35em;
-  opacity: 0.2;
+  opacity: 0.1;
   position: fixed;
   z-index: -1; }
 
@@ -330,3 +330,30 @@ a.splash-arrow:hover {
   color: #282828; }
 .rss-subscribe a:hover {
   color: #FF6603; }
+
+.work-row {
+  margin: 0 auto 2em auto;
+  list-style-type: none;
+  overflow: hidden; }
+
+.photoA {
+  float: left;
+  margin: 0 1em 0 1em;
+  width: 23em;
+  height: 19em;
+  position: relative; }
+  .photoA:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 225, 255, 0.5);
+    opacity: .6; }
+
+.photoB {
+  float: right;
+  margin: 0 1em 0 1em;
+  width: 23em;
+  height: 19em; }
