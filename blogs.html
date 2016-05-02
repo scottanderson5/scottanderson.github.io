@@ -3,26 +3,37 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+<div class="row">
+  <div class="col col-12 home">
 
-<div class="col col-12 home">
+    <!--<h1 class="page-heading">Posts</h1>-->
 
-  <!--<h1 class="page-heading">Posts</h1>-->
+   <div class="row">
+      <div class="col col-8 indi-header">
+        Cogitation and Ruminations
+      </div>
+    </div>  
+    
 
-  <ul class="col col-5 post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-excerpt">
-          <p>{{ post.excerpt | truncatewords: 75 }}
-          </p>
-        </span>  
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+     <div class="row"> 
+      <ul class="col col-5 post-list">
+        {% for post in site.posts %}
+          <li>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-excerpt">
+              <p>{{ post.excerpt | truncatewords: 75 }}
+              </p>
+            </span>  
+          </li>
+        {% endfor %}
+      </ul>
+     </div> 
 
-</div>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  </div>
+ </div> 

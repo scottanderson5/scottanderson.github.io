@@ -206,13 +206,20 @@ a.splash-arrow:hover {
 }
 
 .page-content{
-	//background-color: $PageContentBackgroundColor;
 	color: $MainFontColor;
 	text-align: center;
 }
 
 .post-header{
 	color: $MainFontColor;
+}
+
+.indi-header{
+	color: $PageHeaderColor;
+	font-size: $PageHeaderFontSize;
+	font-weight: $PageHeaderFontWeight;
+	margin: 1em auto;
+	text-align: center;
 }
 //LOGO
 
@@ -342,8 +349,8 @@ a.splash-arrow:hover {
 .photoA{
 	float: left;
 	margin: 0 1em 0 1em;
-	width: 23em;
-	height: 19em;
+	width: 24em;
+	height: 18em;
 	position: relative;	
 }
 
@@ -351,8 +358,8 @@ a.splash-arrow:hover {
 .photoB{
 	float: right;
 	margin: 0 1em 0 1em;
-	width: 23em;
-	height: 19em;
+	width: 24em;
+	height: 18em;
 	position: relative;
 }
 
@@ -360,7 +367,7 @@ a.splash-arrow:hover {
 	margin: 0 auto;
 	position: absolute;
 	height: 5.3em;
-	width: 20em;
+	width: 17em;
 	padding-top: 10em;
 	font-size: 24px;
 	color: white;
