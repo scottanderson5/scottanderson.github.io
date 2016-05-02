@@ -176,7 +176,7 @@ a.splash-arrow:hover {
 
 .trigger{
 	float: right;
-	padding: 1.5em 1em 1em 1em;
+	padding: 1.6em 1em 1em 1em;
 	a{
 		text-decoration: none;
 		color: $HeaderFontColor;
@@ -196,29 +196,32 @@ a.splash-arrow:hover {
 
 //PAGE
 
+.main-body{
+	margin: 3em auto;
+}
+
 .whole-page{
 	text-align: center;
 	background-color: $PageContentBackgroundColor;
-	display: block;
-	position: relative;
 }
 
 .page-content{
-	background-color: $PageContentBackgroundColor;
+	//background-color: $PageContentBackgroundColor;
 	color: $MainFontColor;
-	display: block;
-	position: relative;
+	text-align: center;
 }
 
 .post-header{
 	color: $MainFontColor;
 }
-
 //LOGO
 
 .logo{
-	margin-top: 3em;
-	width: 30em;
+	//margin: 3em auto;
+	width: 35em;
+	opacity: 0.2;
+	position: fixed;
+	z-index: -1;
 }
 
 //FOOTER
@@ -256,6 +259,7 @@ a.splash-arrow:hover {
 
 .home{
 	font-family: $MainContentFont;
+	font-weight: $MainContentFontWeight;
 	text-align: center;
 }
 
@@ -285,11 +289,25 @@ a.splash-arrow:hover {
 }
 
 .post-meta{
-	margin: 1em auto 0 auto;
+	font-size: $BlogDateSize;
+	margin: 0.5em auto 0 auto;
 }
 
 .post-content{
+	font-weight: $MainContentFontWeight;
 	margin: 2em auto 0 auto;
+	line-height: 1.4em;
+	font-size: 1.2em;
+}
+
+.rss-subscribe{
+	a{
+		color: $MainFontColor;
+	}
+
+	a:hover{ 
+		color: $HeaderHoverColor;
+	}	
 }
 
 

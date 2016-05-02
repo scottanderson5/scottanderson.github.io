@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="col col-12 home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!--<h1 class="page-heading">Posts</h1>-->
 
   <ul class="col col-5 post-list">
     {% for post in site.posts %}
@@ -14,7 +14,11 @@ permalink: /blog/
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="col col-6 post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-excerpt">
+          <p>Simon Sinek, an author and speaker who specializes in leadership managment, gave a TED talk in 2009. During that speech he described what he called the “Golden Circle.”
+          </p>
+        </span>  
       </li>
     {% endfor %}
   </ul>

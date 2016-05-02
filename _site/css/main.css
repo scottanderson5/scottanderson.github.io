@@ -217,7 +217,7 @@ a.splash-arrow:hover {
 
 .name {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 37px;
   float: left;
   padding-top: 0.2em; }
   .name a {
@@ -227,7 +227,7 @@ a.splash-arrow:hover {
 .label {
   font-family: Fira Sans;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 28px;
   float: left;
   padding-left: 0.5em;
   padding-top: 0.3em; }
@@ -237,7 +237,7 @@ a.splash-arrow:hover {
 
 .trigger {
   float: right;
-  padding: 1.5em 1em 1em 1em; }
+  padding: 1.6em 1em 1em 1em; }
   .trigger a {
     text-decoration: none;
     color: #EEEBE8; }
@@ -250,24 +250,25 @@ a.splash-arrow:hover {
 .page-link:hover {
   color: #FF6603; }
 
+.main-body {
+  margin: 3em auto; }
+
 .whole-page {
   text-align: center;
-  background-color: #F3EADE;
-  display: block;
-  position: relative; }
+  background-color: #F3EADE; }
 
 .page-content {
-  background-color: #F3EADE;
   color: #282828;
-  display: block;
-  position: relative; }
+  text-align: center; }
 
 .post-header {
   color: #282828; }
 
 .logo {
-  margin-top: 3em;
-  width: 30em; }
+  width: 35em;
+  opacity: 0.2;
+  position: fixed;
+  z-index: -1; }
 
 .footer-wrap {
   background-color: #46806E;
@@ -295,6 +296,7 @@ a.splash-arrow:hover {
 
 .home {
   font-family: Fira Sans;
+  font-weight: 400;
   text-align: center; }
 
 .post-header {
@@ -311,11 +313,20 @@ a.splash-arrow:hover {
     color: #FF6603; }
 
 .post-title {
-  font-size: 72px;
+  font-size: 65px;
   margin: 1em auto 1em auto; }
 
 .post-meta {
-  margin: 1em auto 0 auto; }
+  font-size: 22px;
+  margin: 0.5em auto 0 auto; }
 
 .post-content {
-  margin: 2em auto 0 auto; }
+  font-weight: 400;
+  margin: 2em auto 0 auto;
+  line-height: 1.4em;
+  font-size: 1.2em; }
+
+.rss-subscribe a {
+  color: #282828; }
+.rss-subscribe a:hover {
+  color: #FF6603; }

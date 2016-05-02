@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
 
-  {% include head.html %}
+<body>     
+        {% include header.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="content-wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-    <script src="/JQuery/main.js" type="text/javascript"></script>
-
-  </body>
+        <div class="col col-5 main-body">
+          <img src="/assets/Logo-04.gif" class="logo"> 
+        </div>
+        <div class="page-content">
+            <div class="content-wrapper">
+                {{ content }}
+            </div>
+        </div>
+        {% include footer.html %}
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+        <script src="/JQuery/main.js" type="text/javascript"></script>   
+</body>
 
 </html>
