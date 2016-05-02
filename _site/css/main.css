@@ -333,8 +333,23 @@ a.splash-arrow:hover {
 
 .work-row {
   margin: 0 auto 2em auto;
-  list-style-type: none;
   overflow: hidden; }
+
+.work-pictureA {
+  overflow: hidden;
+  float: left; }
+
+.work-pictureB {
+  overflow: hidden;
+  float: right; }
+
+.work-pictureC {
+  overflow: hidden;
+  float: left; }
+
+.work-pictureD {
+  overflow: hidden;
+  float: right; }
 
 .photoA {
   float: left;
@@ -342,18 +357,51 @@ a.splash-arrow:hover {
   width: 23em;
   height: 19em;
   position: relative; }
-  .photoA:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 225, 255, 0.5);
-    opacity: .6; }
 
 .photoB {
   float: right;
   margin: 0 1em 0 1em;
   width: 23em;
-  height: 19em; }
+  height: 19em;
+  position: relative; }
+
+.descriptionA, .descriptionB, .descriptionC, .descriptionD {
+  margin: 0 auto;
+  position: absolute;
+  height: 5.3em;
+  width: 20em;
+  padding-top: 10em;
+  font-size: 24px;
+  color: white;
+  opacity: 0;
+  transition: 1s; }
+
+.descriptionA {
+  font-family: 'industry-inc-stencil', Arial, sans-serif;
+  float: left; }
+
+.descriptionA:hover {
+  opacity: 1; }
+
+.descriptionB {
+  font-family: 'source-sans-pro', Arial, sans-serif;
+  font-weight: 500;
+  float: right; }
+
+.descriptionB:hover {
+  opacity: 1; }
+
+.descriptionC {
+  font-family: 'adelle', Arial, sans-serif;
+  float: left; }
+
+.descriptionC:hover {
+  opacity: 1; }
+
+.descriptionD {
+  font-family: 'roboto', Arial, sans-serif;
+  font-weight: 500;
+  float: right; }
+
+.descriptionD:hover {
+  opacity: 1; }
