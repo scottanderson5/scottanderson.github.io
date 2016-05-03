@@ -4,7 +4,7 @@ title:  "TED Talk with Simon Sinek"
 date:   2016-04-27 
 ---
 
-Simon Sinek, an author and speaker who specializes in leadership managment, gave an interesting TED talk in 2009. Perhpas a little cheesy, sure. But I've always been a turophile at heart.
+Simon Sinek, an author and speaker who specializes in leadership management, gave an interesting TED talk in 2009. Perhaps a little cheesy, sure. But I've always been a turophile at heart.
 
 During that speech he described what he called the “Golden Circle.” He explained, that by looking at the circle we could better understand what makes successful people successful. To be a success, you need to start with the “Why” of what you do what you do. You do not start with the “What” as too many people make the mistake of doing. When you start with the "Why", you are driven by resolve, and others can see the inspiration. Dr. Martin Luther King, Jr. was not driven by the "What" but by the "Why", Sinek explains. That is why he has the famous, “I have a dream” speech, rather than the “I have a plan” speech.
 

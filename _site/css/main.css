@@ -261,9 +261,6 @@ a.splash-arrow:hover {
   color: #282828;
   text-align: center; }
 
-.post-header {
-  color: #282828; }
-
 .indi-header {
   color: #46806E;
   font-size: 65px;
@@ -414,3 +411,36 @@ a.splash-arrow:hover {
 
 .descriptionD:hover {
   opacity: 1; }
+
+.intro-wrap {
+  overflow: hidden;
+  margin: 0 auto; }
+
+.intro-background {
+  background-color: #323232; }
+
+.intro-pic {
+  width: 24em;
+  float: left;
+  margin: 1em 0em 0em 0em; }
+
+.intro-type-wrap {
+  float: right;
+  overflow: hidden;
+  width: 26em;
+  margin: 5em 0em 0em 1em; }
+
+.intro-type {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FF6603;
+  width: 100%;
+  margin: 0.2em 0em 0em 0em; }
+
+.intro-d {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: left;
+  margin: 1em 0em 0em 1.2em;
+  width: 100%; }
