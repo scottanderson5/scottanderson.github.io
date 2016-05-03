@@ -459,3 +459,11 @@ a.splash-arrow:hover {
   text-align: left;
   margin: 1em 0em 0em 0em;
   width: 100%; }
+
+.intro-w {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: left;
+  margin: 0.5em 0em 0em 0em;
+  width: 100%; }
