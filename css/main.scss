@@ -432,11 +432,11 @@ a.splash-arrow:hover {
 	margin: 1em 0em 0em 0em;
 }
 
-.intro-type-wrap{
+.intro-type-wrapA{
 	float: right;
 	overflow: hidden;
 	width: 26em;
-	margin: 5em 0em 0em 1em;
+	margin: 6em 0em 0em 1em;
 }
 
 .intro-type{
@@ -445,6 +445,7 @@ a.splash-arrow:hover {
 	color: $AboutIntroFontHeader;
 	width: 100%;
 	margin: 0.2em 0em 0em 0em;
+	text-align: left;
 }
 
 .intro-d{
@@ -452,7 +453,23 @@ a.splash-arrow:hover {
 	font-weight: $AboutIntroDescriptionFontWeight;
 	line-height: 1.2em;
 	text-align: left;
-	margin: 1em 0em 0em 1.2em;
+	margin: 1.2em 0em 0em 0em;
+	width: 100%;
+}
+
+.intro-type-wrapB{
+	float: right;
+	overflow: hidden;
+	width: 26em;
+	margin: 3em 0em 0em 1em;
+}
+
+.intro-t{
+	font-size: $AboutIntroDescriptionSize;
+	font-weight: $AboutIntroDescriptionFontWeight;
+	line-height: 1.2em;
+	text-align: left;
+	margin: 1em 0em 0em 0em;
 	width: 100%;
 }
 
