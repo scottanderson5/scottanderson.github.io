@@ -330,6 +330,10 @@ a.splash-arrow:hover {
   margin: 2em auto 0 auto;
   line-height: 1.4em;
   font-size: 1.2em; }
+  .post-content a {
+    color: #282828; }
+  .post-content a:hover {
+    color: #FF6603; }
 
 .rss-subscribe a {
   color: #282828; }
