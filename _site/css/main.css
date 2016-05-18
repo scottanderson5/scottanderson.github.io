@@ -295,7 +295,7 @@ a.splash-arrow:hover {
 
 .site-header {
   background-color: #323232;
-  font-family: Fira Sans;
+  font-family: "fira-sans";
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
@@ -316,7 +316,7 @@ a.splash-arrow:hover {
     color: #EEEBE8; }
 
 .label {
-  font-family: Fira Sans;
+  font-family: "fira-sans";
   font-weight: 600;
   font-size: 28px;
   float: left;
@@ -372,7 +372,7 @@ a.splash-arrow:hover {
 
 .site-footer {
   background-color: #323232;
-  font-family: Fira Sans;
+  font-family: "fira-sans";
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
@@ -390,7 +390,7 @@ a.splash-arrow:hover {
   width: 2em; }
 
 .home {
-  font-family: Fira Sans;
+  font-family: "fira-sans";
   font-weight: 400;
   text-align: center; }
 
