@@ -1,0 +1,42 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//PAGE
+
+body{
+	background-color: $MainPageBackgroundColor;
+}
+
+.main-body{
+	margin: 0em auto;
+}
+
+.whole-page{
+	text-align: center;
+	background-color: $PageContentBackgroundColor;
+}
+
+.page-content{
+	color: $MainFontColor;
+	text-align: center;
+}
+
+.indi-header{
+	color: $PageHeaderColor;
+	font-size: $PageHeaderFontSize;
+	font-weight: $PageHeaderFontWeight;
+	margin: 1em auto;
+	text-align: center;
+	padding: 0em 0em 1em 0em;
+}
+
+//LOGO
+
+.logo{
+	//margin: 3em auto;
+	width: 35em;
+	opacity: 0.1;
+	position: fixed;
+	z-index: -1;
+}

@@ -1,0 +1,75 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//HEADER
+
+header{
+	margin-top: 1em;
+}
+
+.header-wrap{
+	background-color: $HeaderWrapBackgroundColor;
+	height: 5.8em;
+	position: relative;
+}
+
+.site-header{
+	background-color: $HeaderBackground;
+	font-family: $HeaderFont;
+	text-transform: uppercase;
+	overflow: hidden;
+	margin-top: 0.8em;
+	position: absolute;
+}
+
+.title-wrap{
+	float: left;
+	overflow: hidden;
+	padding: 1em;
+
+}
+
+.name{
+	font-weight: $TitleFontWeight;
+	font-size: $TitleFontSize;
+	float: left;
+	padding-top: 0.2em;
+	a{
+		text-decoration: none;
+		color: $HeaderFontColor;
+	}
+}
+
+.label{
+	font-family: $HeaderFont;
+	font-weight: $TitleFontWeight;
+	font-size: $TitleLabelFontSize;
+	float: left;
+	padding-left: 0.5em;
+	padding-top: 0.3em;
+	a{
+		text-decoration: none;
+		color: $TitleLabelFontColor;
+	}
+}
+
+.trigger{
+	float: right;
+	padding: 1.4em 1em 1em 1em;
+	a{
+		text-decoration: none;
+		color: $HeaderFontColor;
+	}
+}
+
+.page-link{
+	font-weight: $PageTitleFontWeight;
+	font-size: $PageTitleFontSize;
+	margin-right: 0.5em;
+
+}
+
+.page-link:hover{
+	color: $HeaderHoverColor;
+}

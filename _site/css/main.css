@@ -82,16 +82,112 @@
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-body {
-  background-color: #F3EADE; }
+.homepage-main {
+  height: 35em; }
 
-header {
-  margin-top: 1em; }
+.homepage-intro {
+  margin: 5em auto 0em auto;
+  text-align: left; }
 
-footer {
-  margin-top: 2em;
+.hp-intro1 {
+  color: #46806E;
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 1.2em; }
+
+.hp-intro2 {
+  color: #FF6603;
+  font-size: 3em;
+  line-height: 1.2em; }
+
+.hp-intro3 {
+  font-size: 2em;
+  line-height: 1.1em; }
+
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
   margin-bottom: 1em; }
 
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
 .loader-wrapper {
   position: fixed;
   top: 0;
@@ -284,9 +380,92 @@ a.splash-arrow:hover {
 @media all and (max-width: 480px) {
   .splash-title {
     font-size: 1.5em; } }
-.intro-video {
-  width: 100%;
-  height: 47em; }
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
+header {
+  margin-top: 1em; }
 
 .header-wrap {
   background-color: #46806E;
@@ -295,7 +474,7 @@ a.splash-arrow:hover {
 
 .site-header {
   background-color: #323232;
-  font-family: "fira-sans";
+  font-family: Fira Sans;
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
@@ -316,7 +495,7 @@ a.splash-arrow:hover {
     color: #EEEBE8; }
 
 .label {
-  font-family: "fira-sans";
+  font-family: Fira Sans;
   font-weight: 600;
   font-size: 28px;
   float: left;
@@ -341,8 +520,95 @@ a.splash-arrow:hover {
 .page-link:hover {
   color: #FF6603; }
 
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
+body {
+  background-color: #F3EADE; }
+
 .main-body {
-  margin: 0 auto; }
+  margin: 0em auto; }
 
 .whole-page {
   text-align: center;
@@ -357,13 +623,102 @@ a.splash-arrow:hover {
   font-size: 65px;
   font-weight: 600;
   margin: 1em auto;
-  text-align: center; }
+  text-align: center;
+  padding: 0em 0em 1em 0em; }
 
 .logo {
   width: 35em;
   opacity: 0.1;
   position: fixed;
   z-index: -1; }
+
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em; }
 
 .footer-wrap {
   background-color: #46806E;
@@ -372,7 +727,7 @@ a.splash-arrow:hover {
 
 .site-footer {
   background-color: #323232;
-  font-family: "fira-sans";
+  font-family: Fira Sans;
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
@@ -389,10 +744,95 @@ a.splash-arrow:hover {
 .icon {
   width: 2em; }
 
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
 .home {
-  font-family: "fira-sans";
+  font-family: Fira Sans;
   font-weight: 400;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
 
 .post-header {
   text-align: center; }
@@ -431,25 +871,109 @@ a.splash-arrow:hover {
 .rss-subscribe a:hover {
   color: #FF6603; }
 
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
 .work-row {
   margin: 0 auto 2em auto;
+  padding: 0em 0em 1.5em 0em;
   overflow: hidden;
   text-align: center; }
 
+.work-pictureA, .work-pictureB, .work-pictureC, .work-pictureD {
+  overflow: hidden; }
+
 .work-pictureA {
-  overflow: hidden;
   float: left; }
 
 .work-pictureB {
-  overflow: hidden;
   float: right; }
 
 .work-pictureC {
-  overflow: hidden;
   float: left; }
 
 .work-pictureD {
-  overflow: hidden;
   float: right; }
 
 .photoA {
@@ -507,6 +1031,90 @@ a.splash-arrow:hover {
 .descriptionD:hover {
   opacity: 1; }
 
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  overflow: hidden; }
+
+.col {
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
 .intro-wrap {
   overflow: hidden;
   margin: 0 auto; }

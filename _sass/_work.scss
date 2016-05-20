@@ -1,0 +1,107 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//WORK
+
+.work-row{
+	margin: 0 auto 2em auto;
+	padding: 0em 0em 1.5em 0em;
+	overflow: hidden;
+	text-align: center;
+}
+
+%work-picture{
+	overflow: hidden;
+}
+
+.work-pictureA{
+	@extend %work-picture;
+	float: left;
+}
+
+.work-pictureB{
+	@extend %work-picture;
+	float: right;
+}
+
+.work-pictureC{
+	@extend %work-picture;
+	float: left;
+}
+
+.work-pictureD{
+	@extend %work-picture;
+	float: right;
+}
+
+.photoA{
+	float: left;
+	margin: 0 1em 0 1em;
+	width: 24em;
+	height: 18em;
+	position: relative;	
+}
+
+
+.photoB{
+	float: right;
+	margin: 0 1em 0 1em;
+	width: 24em;
+	height: 18em;
+	position: relative;
+}
+
+%description{
+	margin: 0 auto;
+	position: absolute;
+	height: 5.3em;
+	width: 17em;
+	padding-top: 10em;
+	font-size: 24px;
+	color: white;
+	opacity: 0;
+	transition: 1s;
+}
+
+.descriptionA{
+	@extend %description;
+	font-family: 'industry-inc-stencil', Arial, sans-serif;
+	float: left;
+}
+
+.descriptionA:hover{
+	opacity: 1;
+}
+
+.descriptionB{
+	@extend %description;
+	font-family: 'source-sans-pro', Arial, sans-serif;
+	font-weight: 500;
+	float: right;
+}
+
+.descriptionB:hover{
+	opacity: 1;
+}
+
+.descriptionC{
+	@extend %description;
+	font-family: 'adelle', Arial, sans-serif;
+	float: left;
+}
+
+.descriptionC:hover{
+	opacity: 1;
+}
+
+.descriptionD{
+	@extend %description;
+	font-family: 'roboto', Arial, sans-serif;
+	font-weight: 500;
+	float: right;
+}
+
+.descriptionD:hover{
+	opacity: 1;
+}

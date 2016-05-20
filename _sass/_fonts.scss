@@ -1,7 +1,8 @@
 
 //Header
 
-$HeaderFont: 'fira-sans';
+//$HeaderFont: 'fira-sans', Arial, sans-serif;
+$HeaderFont: Fira Sans;
 $TitleFontWeight: 600;
 $TitleFontSize: 37px;
 
@@ -12,13 +13,22 @@ $TitleLabelFontSize: 28px;
 $PageTitleFontWeight: 600;
 $PageTitleFontSize: 24px;
 
-$MainContentFont: 'fira-sans';
+//$MainContentFont: 'fira-sans', Arial, sans-serif;
+$MainContentFont: Fira Sans;
 $MainContentFontWeight: 400;
 
 $MainContentHeaderSize: 65px;
 
 $PageHeaderFontSize: 65px;
 $PageHeaderFontWeight: 600;
+
+//HomePage
+
+$HomePageIntroFontSize: 4em;
+$HomePageIntroFontWeight: 600;
+$HomePageSubIntroFontSize: 3em;
+$HomePagePFontSize: 2em;
+
 
 //Blog
 

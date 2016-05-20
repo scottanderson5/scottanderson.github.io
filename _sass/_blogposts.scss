@@ -1,0 +1,68 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//BLOG
+
+.home{
+	font-family: $MainContentFont;
+	font-weight: $MainContentFontWeight;
+	text-align: center;
+	overflow: hidden;
+}
+
+.post-header{
+	text-align: center;
+}
+
+.post-list{
+	list-style-type: none;
+	text-align: left;
+	margin: 0 auto;
+
+	a{
+		text-decoration: none;
+		color: $MainFontColor;
+	}
+
+	a:hover{
+		color: $HeaderHoverColor;
+	}
+}
+
+.post-title{
+	font-size: $MainContentHeaderSize;
+	margin: 1em auto 1em auto;
+
+}
+
+.post-meta{
+	font-size: $BlogDateSize;
+	margin: 0.5em auto 0 auto;
+}
+
+.post-content{
+	font-weight: $MainContentFontWeight;
+	text-align: left;
+	margin: 2em auto 0 auto;
+	line-height: 1.4em;
+	font-size: 1.2em;
+
+	a{
+		color: $MainFontColor;
+	}
+
+	a:hover{
+		color: $HeaderHoverColor;
+	}
+}
+
+.rss-subscribe{
+	a{
+		color: $MainFontColor;
+	}
+
+	a:hover{ 
+		color: $HeaderHoverColor;
+	}	
+}

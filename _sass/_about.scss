@@ -1,0 +1,70 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//About Page
+
+.intro-wrap{
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.intro-background{
+	background-color: #323232;
+}
+
+.intro-pic{
+	width: 24em;
+	float: left;
+	margin: 1em 0em 0em 0em;
+}
+
+.intro-type-wrapA{
+	float: right;
+	overflow: hidden;
+	width: 26em;
+	margin: 6em 0em 0em 1em;
+}
+
+.intro-type{
+	font-size: $AboutIntroHeaderSize;
+	font-weight: $AboutIntroHeaderFontWeight;
+	color: $AboutIntroFontHeader;
+	width: 100%;
+	margin: 0.2em 0em 0em 0em;
+	text-align: left;
+}
+
+.intro-d{
+	font-size: $AboutIntroDescriptionSize;
+	font-weight: $AboutIntroDescriptionFontWeight;
+	line-height: 1.2em;
+	text-align: left;
+	margin: 1.2em 0em 0em 0em;
+	width: 100%;
+}
+
+.intro-type-wrapB{
+	float: right;
+	overflow: hidden;
+	width: 26em;
+	margin: 3em 0em 0em 1em;
+}
+
+.intro-t{
+	font-size: $AboutIntroDescriptionSize;
+	font-weight: $AboutIntroDescriptionFontWeight;
+	line-height: 1.2em;
+	text-align: left;
+	margin: 1em 0em 0em 0em;
+	width: 100%;
+}
+
+.intro-w{
+	font-size: $AboutIntroDescriptionSize;
+	font-weight: $AboutIntroDescriptionFontWeight;
+	line-height: 1.2em;
+	text-align: left;
+	margin: 0.5em 0em 0em 0em;
+	width: 100%;
+}

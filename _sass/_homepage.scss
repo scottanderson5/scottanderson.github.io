@@ -1,0 +1,40 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//Homepage
+
+.homepage-main{
+	height: 35em;
+}
+
+.homepage-intro{
+	margin: 5em auto 0em auto;
+	text-align: left;
+}
+
+%hp-intro{
+	font-family: $MainContentFont;
+
+}
+
+.hp-intro1{
+	color: $HomePageIntroFontColor;
+	font-size: $HomePageIntroFontSize;
+	font-weight: $HomePageIntroFontWeight;
+	line-height: 1.2em;
+}
+
+.hp-intro2{
+	color: $HomePageSubIntroFontColor;
+	font-size: $HomePageSubIntroFontSize;
+	line-height: 1.2em;
+	
+}
+
+.hp-intro3{
+	font-size: $HomePagePFontSize;
+	line-height: 1.1em;
+
+}
+

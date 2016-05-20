@@ -1,0 +1,39 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+//FOOTER
+
+footer{
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.footer-wrap{
+	background-color: $FooterWrapBackgroundColor;
+	height: 3.8em;
+	position: relative;
+}
+
+.site-footer{
+	background-color: $FooterBackground;
+	font-family: $HeaderFont;
+	text-transform: uppercase;
+	overflow: hidden;
+	margin-top: 0.8em;
+	position: absolute;
+}
+
+.contact-list{
+	float: left;
+	margin-left: 4em;
+	list-style-type: none;
+}
+
+.social-media-icon{
+	padding: 0.2em;
+}
+
+.icon{
+	width: 2em;
+}
