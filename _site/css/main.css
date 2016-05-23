@@ -86,7 +86,7 @@
   height: 37em; }
 
 .homepage-intro {
-  margin: 5em auto 0em auto;
+  margin: 10em auto 0em auto;
   text-align: left; }
 
 .hp-intro1 {
@@ -673,7 +673,8 @@ body {
   padding: 0em 0em 1em 0em; }
 
 .logo {
-  width: 35em;
+  margin: 3em auto;
+  width: 40%;
   opacity: 0.1;
   position: fixed;
   z-index: -1; }
