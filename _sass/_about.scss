@@ -20,6 +20,14 @@
 	font-family: $MainFont;
 	color: $MainFontColor;
 	font-size: 1.2em;
+
+	a{
+		color: $MainFontColor;
+	}
+
+	a:hover{
+		color: $HeaderHoverColor;
+	}
 }
 
 
