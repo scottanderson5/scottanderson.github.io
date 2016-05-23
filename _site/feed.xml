@@ -5,8 +5,8 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 May 2016 12:20:04 -0500</pubDate>
-    <lastBuildDate>Mon, 23 May 2016 12:20:04 -0500</lastBuildDate>
+    <pubDate>Mon, 23 May 2016 13:29:18 -0500</pubDate>
+    <lastBuildDate>Mon, 23 May 2016 13:29:18 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -197,7 +197,7 @@
 
 &lt;p&gt;&lt;em&gt;I don’t know how much I have left.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I have learned that there is so much trial and error in coding. This past weekend we were working on a personal re-work of the LinkedIn home page. We were required to start with sketches, wireframe mockups, full mockups, and coding the page itself and making it responsive. We needed to include at least one JQuery in our code. And we needed to follow and existing style guide, mine was the U.S. Gov webpage. Once the page was coded and complete, we needed to do a rapid prototype with another style guide, which for me was the HealthCare.Gov webpage.&lt;/p&gt;
+&lt;p&gt;I have learned that there is so much trial and error in coding. This past weekend we were working on a personal re-work of the LinkedIn home page. We were required to start with sketches, wireframe mockups, full mockups, and coding the page itself and making it responsive. We needed to include at least one JQuery in our code. And we needed to follow an existing style guide, mine was the U.S. Gov webpage. Once the page was coded and complete, we needed to do a rapid prototype with another style guide, which for me was the HealthCare.Gov webpage.&lt;/p&gt;
 
 &lt;p&gt;I didn’t realize until Sunday afternoon that this was a lot to get done in a short amount of time.&lt;/p&gt;
 

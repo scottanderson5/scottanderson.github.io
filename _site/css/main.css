@@ -83,21 +83,21 @@
     .col-12:last-child {
       margin-right: auto; } }
 .homepage-main {
-  height: 37em; }
+  height: 41em; }
 
-.homepage-intro {
+.homepage-introA {
   margin: 10em auto 0em auto;
   text-align: left; }
 
 .hp-intro1 {
   color: #46806E;
-  font-size: 4em;
+  font-size: 5.5em;
   font-weight: 700;
   line-height: 1.2em; }
 
 .hp-intro2a, .hp-intro2b, .hp-intro2c {
   color: #FF6603;
-  font-size: 3em;
+  font-size: 3.2em;
   line-height: 1.2em;
   display: inline-block;
   padding: 0em 0em 0.5em 0em; }
