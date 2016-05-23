@@ -90,14 +90,14 @@
   text-align: left; }
 
 .hp-intro1 {
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   color: #46806E;
   font-size: 5.5em;
   font-weight: 700;
   line-height: 1.2em; }
 
 .hp-intro2a, .hp-intro2b, .hp-intro2c {
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   color: #FF6603;
   font-size: 3.2em;
   line-height: 1.2em;
@@ -522,7 +522,7 @@ header {
 
 .site-header {
   background-color: #323232;
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
@@ -543,7 +543,7 @@ header {
     color: #EEEBE8; }
 
 .label {
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 28px;
   float: left;
@@ -776,7 +776,7 @@ footer {
 
 .site-footer {
   background-color: #323232;
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
@@ -878,7 +878,7 @@ footer {
     .col-12:last-child {
       margin-right: auto; } }
 .home {
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   font-weight: 400;
   text-align: center;
   overflow: hidden; }
@@ -1170,6 +1170,6 @@ footer {
 
 .about-content-intro {
   color: #FF6603;
-  font-family: Fira Sans;
+  font-family: "fira-sans", Arial, sans-serif;
   font-size: 2em;
   margin: 0em 0em 1em 0em; }
