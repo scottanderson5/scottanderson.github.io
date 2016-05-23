@@ -90,12 +90,14 @@
   text-align: left; }
 
 .hp-intro1 {
+  font-family: Fira Sans;
   color: #46806E;
   font-size: 5.5em;
   font-weight: 700;
   line-height: 1.2em; }
 
 .hp-intro2a, .hp-intro2b, .hp-intro2c {
+  font-family: Fira Sans;
   color: #FF6603;
   font-size: 3.2em;
   line-height: 1.2em;
@@ -1162,58 +1164,12 @@ footer {
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-.intro-wrap {
-  overflow: hidden;
-  margin: 0 auto; }
-
-.intro-background {
-  background-color: #323232; }
-
-.intro-pic {
-  width: 24em;
-  float: left;
-  margin: 1em 0em 0em 0em; }
-
-.intro-type-wrapA {
-  float: right;
-  overflow: hidden;
-  width: 26em;
-  margin: 6em 0em 0em 1em; }
-
-.intro-type {
-  font-size: 40px;
-  font-weight: 650;
-  color: #FF6603;
-  width: 100%;
-  margin: 0.2em 0em 0em 0em;
+.about-content {
+  margin: 0 auto;
   text-align: left; }
 
-.intro-d {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.2em;
-  text-align: left;
-  margin: 1.2em 0em 0em 0em;
-  width: 100%; }
-
-.intro-type-wrapB {
-  float: right;
-  overflow: hidden;
-  width: 26em;
-  margin: 3em 0em 0em 1em; }
-
-.intro-t {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.2em;
-  text-align: left;
-  margin: 1em 0em 0em 0em;
-  width: 100%; }
-
-.intro-w {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.2em;
-  text-align: left;
-  margin: 0.5em 0em 0em 0em;
-  width: 100%; }
+.about-content-intro {
+  color: #FF6603;
+  font-family: Fira Sans;
+  font-size: 2em;
+  margin: 0em 0em 1em 0em; }

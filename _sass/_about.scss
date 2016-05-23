@@ -4,67 +4,39 @@
 
 //About Page
 
-.intro-wrap{
-	overflow: hidden;
+.about-content{
 	margin: 0 auto;
+	text-align: left;
 }
 
-.intro-background{
-	background-color: #323232;
-}
-
-.intro-pic{
-	width: 24em;
-	float: left;
-	margin: 1em 0em 0em 0em;
-}
-
-.intro-type-wrapA{
-	float: right;
-	overflow: hidden;
-	width: 26em;
-	margin: 6em 0em 0em 1em;
-}
-
-.intro-type{
-	font-size: $AboutIntroHeaderSize;
-	font-weight: $AboutIntroHeaderFontWeight;
+.about-content-intro{
 	color: $AboutIntroFontHeader;
-	width: 100%;
-	margin: 0.2em 0em 0em 0em;
-	text-align: left;
+	font-family: $MainContentFont;
+	font-size: 2em;
+	margin: 0em 0em 1em 0em;
 }
 
-.intro-d{
-	font-size: $AboutIntroDescriptionSize;
-	font-weight: $AboutIntroDescriptionFontWeight;
-	line-height: 1.2em;
-	text-align: left;
-	margin: 1.2em 0em 0em 0em;
-	width: 100%;
+.about-content-main{
+
 }
 
-.intro-type-wrapB{
-	float: right;
-	overflow: hidden;
-	width: 26em;
-	margin: 3em 0em 0em 1em;
-}
 
-.intro-t{
-	font-size: $AboutIntroDescriptionSize;
-	font-weight: $AboutIntroDescriptionFontWeight;
-	line-height: 1.2em;
-	text-align: left;
-	margin: 1em 0em 0em 0em;
-	width: 100%;
-}
 
-.intro-w{
-	font-size: $AboutIntroDescriptionSize;
-	font-weight: $AboutIntroDescriptionFontWeight;
-	line-height: 1.2em;
-	text-align: left;
-	margin: 0.5em 0em 0em 0em;
-	width: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

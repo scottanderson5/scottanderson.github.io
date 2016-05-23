@@ -13,12 +13,8 @@
 	text-align: left;
 }
 
-%hp-intro{
-	font-family: $MainContentFont;
-
-}
-
 .hp-intro1{
+	font-family: $MainContentFont;
 	color: $HomePageIntroFontColor;
 	font-size: $HomePageIntroFontSize;
 	font-weight: $HomePageIntroFontWeight;
@@ -26,6 +22,7 @@
 }
 
 %hp-intro2{
+	font-family: $MainContentFont;
 	color: $HomePageSubIntroFontColor;
 	font-size: $HomePageSubIntroFontSize;
 	line-height: 1.2em;	
