@@ -95,14 +95,60 @@
   font-weight: 700;
   line-height: 1.2em; }
 
-.hp-intro2 {
+.hp-intro2a, .hp-intro2b, .hp-intro2c {
   color: #FF6603;
   font-size: 3em;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+  display: inline-block;
+  padding: 0em 0em 0.5em 0em; }
 
 .hp-intro3 {
   font-size: 2em;
   line-height: 1.1em; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+.fade-in.two {
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  animation-delay: 1.8s; }
+
+.fade-in.three {
+  -webkit-animation-delay: 2.8s;
+  -moz-animation-delay: 2.8s;
+  animation-delay: 2.8s; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
