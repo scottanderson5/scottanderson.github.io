@@ -4,23 +4,25 @@
 $HeaderFont: 'roboto', Arial, sans-serif;
 //$HeaderFont: Fira Sans;
 $TitleFontWeight: 600;
-$TitleFontSize: 37px;
+$TitleFontSize: 2.3125em;
 
-$TitleLabelFontSize: 28px;
+$TitleLabelFontSize: 1.5em;
 
 //Page
 
 $PageTitleFontWeight: 600;
-$PageTitleFontSize: 24px;
+$PageTitleFontSize: 1.5em;
 
 $MainContentFont: 'fira-sans', Arial, sans-serif;
 //$MainContentFont: Fira Sans;
 $MainContentFontWeight: 400;
 
-$MainContentHeaderSize: 65px;
+$MainContentHeaderSize: 4.0625em;
 
-$PageHeaderFontSize: 65px;
+$PageHeaderFontSize: 4.0625em;
 $PageHeaderFontWeight: 700;
+
+$MainFont: 'open-sans', Arial, sans-serif;
 
 //HomePage
 
@@ -32,12 +34,12 @@ $HomePagePFontSize: 2em;
 
 //Blog
 
-$BlogDateSize: 22px;
+$BlogDateSize: 1.25em;
 
 //About
 
-$AboutIntroHeaderSize: 40px;
-$AboutIntroDescriptionSize: 24px;
+$AboutIntroHeaderSize: 2.5em;
+$AboutIntroDescriptionSize: 1.5em;
 
 $AboutIntroHeaderFontWeight: 650;
 $AboutIntroDescriptionFontWeight: 500;

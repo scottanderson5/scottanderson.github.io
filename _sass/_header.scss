@@ -10,7 +10,7 @@ header{
 
 .header-wrap{
 	background-color: $HeaderWrapBackgroundColor;
-	height: 5.8em;
+	height: 6.78em;
 	position: relative;
 }
 
@@ -34,7 +34,7 @@ header{
 	font-weight: $TitleFontWeight;
 	font-size: $TitleFontSize;
 	float: left;
-	padding-top: 0.2em;
+	padding-top: 0em;
 	a{
 		text-decoration: none;
 		color: $HeaderFontColor;
@@ -47,7 +47,7 @@ header{
 	font-size: $TitleLabelFontSize;
 	float: left;
 	padding-left: 0.5em;
-	padding-top: 0.3em;
+	padding-top: 0.4em;
 	a{
 		text-decoration: none;
 		color: $TitleLabelFontColor;
@@ -56,7 +56,7 @@ header{
 
 .trigger{
 	float: right;
-	padding: 1.4em 1em 1em 1em;
+	padding: 1.6em 1em 1em 1em;
 	a{
 		text-decoration: none;
 		color: $HeaderFontColor;

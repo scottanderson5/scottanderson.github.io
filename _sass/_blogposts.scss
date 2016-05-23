@@ -27,6 +27,10 @@
 	a:hover{
 		color: $HeaderHoverColor;
 	}
+
+	h2{
+		margin-bottom: 0.3em;
+	}
 }
 
 .post-title{
@@ -42,6 +46,7 @@
 
 .post-content{
 	font-weight: $MainContentFontWeight;
+	font-family: $MainFont;
 	text-align: left;
 	margin: 2em auto 0 auto;
 	line-height: 1.4em;
@@ -53,6 +58,12 @@
 
 	a:hover{
 		color: $HeaderHoverColor;
+	}
+}
+
+.post-excerpt{
+	p{
+		font-family: $MainFont;
 	}
 }
 

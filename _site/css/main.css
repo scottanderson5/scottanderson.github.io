@@ -236,288 +236,12 @@
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-.loader-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000; }
-
-.loader {
-  display: block;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 3px solid #3498db;
-  z-index: 1500;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite; }
-
-.loader:before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border: 3px solid #e74c3c;
-  -webkit-animation: spin 3s linear infinite;
-  animation: spin 3s linear infinite; }
-
-.loader:after {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  border: 3px solid #f9c922;
-  -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite; }
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    transform: rotate(0deg);
-    /* Firefox 16+, IE 10+, Opera */ }
-  100% {
-    -webkit-transform: rotate(360deg);
-    /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(360deg);
-    /* IE 9 */
-    transform: rotate(360deg);
-    /* Firefox 16+, IE 10+, Opera */ } }
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    transform: rotate(0deg);
-    /* Firefox 16+, IE 10+, Opera */ }
-  100% {
-    -webkit-transform: rotate(360deg);
-    /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: rotate(360deg);
-    /* IE 9 */
-    transform: rotate(360deg);
-    /* Firefox 16+, IE 10+, Opera */ } }
-.loader-wrapper .loader-section {
-  position: fixed;
-  top: 0;
-  width: 51%;
-  height: 100%;
-  background: #222222;
-  z-index: 1000; }
-
-.loader-wrapper .loader-section.section-left {
-  left: 0; }
-
-.loader-wrapper .loader-section.section-right {
-  right: 0; }
-
-.s1 -webkit-keyframes fadeIn from {
-  opacity: 0; }
-.s1 -webkit-keyframes fadeIn to {
-  opacity: 1; }
-.s1 -moz-keyframes fadeIn from {
-  opacity: 0; }
-.s1 -moz-keyframes fadeIn to {
-  opacity: 1; }
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-.fade-in {
-  opacity: 0;
-  -webkit-animation: fadeIn ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 0.3s;
-  -moz-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
-
-.splash {
-  background: url(http://www.lennar.com/images/com/images/new-homes/18/14/mhi/DallasSkyline21200X540opt.jpg) center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  min-height: 360px;
-  z-index: 999;
-  text-align: center; }
-
-body {
-  font: normal 1em/1.5em 'Open Sans', sans-serif;
-  color: #333;
-  margin-bottom: 20px; }
-
-.wrapper {
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto; }
-
-.splash-title {
-  color: white;
-  font-size: 3em;
-  margin-top: 100px;
-  text-shadow: 0 2px 10px #000;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  animation-delay: 1s; }
-
-a.splash-arrow {
-  color: white;
-  font-size: 1.2em;
-  position: absolute;
-  bottom: 55px;
-  left: 50%;
-  margin-left: -25px;
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  font-weight: bold;
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
-  transition: all 0.1s ease;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-  border: 3px solid white;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%; }
-
-a.splash-arrow:hover {
-  text-decoration: none;
-  bottom: 50px; }
-
-.arrow-icon {
-  font-size: 6em; }
-
-@media all and (max-width: 690px) {
-  header h1 {
-    width: 100%;
-    text-align: center; }
-
-  header nav {
-    float: none;
-    display: inline-block;
-    margin: 0 auto; }
-
-  .splash-title {
-    font-size: 2em; } }
-@media all and (max-width: 480px) {
-  .splash-title {
-    font-size: 1.5em; } }
-/*********** GRID LAYOUT ***************/
-/*************** ROW AND COL FOR GRID ***********/
-.row {
-  overflow: hidden; }
-
-.col {
-  margin-bottom: 1em; }
-
-/***************************************/
-@media (min-width: 600px) {
-  .col {
-    margin-bottom: 0; }
-
-  .col-1 {
-    width: 6.5%;
-    margin-right: 2%; }
-    .col-1:last-child {
-      margin-right: auto; }
-
-  .col-2 {
-    width: 15%;
-    margin-right: 2%; }
-    .col-2:last-child {
-      margin-right: auto; }
-
-  .col-3 {
-    width: 23.5%;
-    margin-right: 2%; }
-    .col-3:last-child {
-      margin-right: auto; }
-
-  .col-4 {
-    width: 32%;
-    margin-right: 2%; }
-    .col-4:last-child {
-      margin-right: auto; }
-
-  .col-5 {
-    width: 40.5%;
-    margin-right: 2%; }
-    .col-5:last-child {
-      margin-right: auto; }
-
-  .col-6 {
-    width: 49%;
-    margin-right: 2%; }
-    .col-6:last-child {
-      margin-right: auto; }
-
-  .col-7 {
-    width: 57.5%;
-    margin-right: 2%; }
-    .col-7:last-child {
-      margin-right: auto; }
-
-  .col-8 {
-    width: 66%;
-    margin-right: 2%; }
-    .col-8:last-child {
-      margin-right: auto; }
-
-  .col-9 {
-    width: 74.5%;
-    margin-right: 2%; }
-    .col-9:last-child {
-      margin-right: auto; }
-
-  .col-10 {
-    width: 83%;
-    margin-right: 2%; }
-    .col-10:last-child {
-      margin-right: auto; }
-
-  .col-11 {
-    width: 91.5%;
-    margin-right: 2%; }
-    .col-11:last-child {
-      margin-right: auto; }
-
-  .col-12 {
-    width: 100%;
-    margin-right: 2%; }
-    .col-12:last-child {
-      margin-right: auto; } }
 header {
   margin-top: 1em; }
 
 .header-wrap {
   background-color: #46806E;
-  height: 5.8em;
+  height: 6.78em;
   position: relative; }
 
 .site-header {
@@ -535,9 +259,9 @@ header {
 
 .name {
   font-weight: 600;
-  font-size: 37px;
+  font-size: 2.3125em;
   float: left;
-  padding-top: 0.2em; }
+  padding-top: 0em; }
   .name a {
     text-decoration: none;
     color: #EEEBE8; }
@@ -545,24 +269,24 @@ header {
 .label {
   font-family: "roboto", Arial, sans-serif;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 1.5em;
   float: left;
   padding-left: 0.5em;
-  padding-top: 0.3em; }
+  padding-top: 0.4em; }
   .label a {
     text-decoration: none;
     color: #FF6603; }
 
 .trigger {
   float: right;
-  padding: 1.4em 1em 1em 1em; }
+  padding: 1.6em 1em 1em 1em; }
   .trigger a {
     text-decoration: none;
     color: #EEEBE8; }
 
 .page-link {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5em;
   margin-right: 0.5em; }
 
 .page-link:hover {
@@ -669,11 +393,11 @@ body {
 .indi-header {
   font-family: "roboto", Arial, sans-serif;
   color: #46806E;
-  font-size: 65px;
+  font-size: 4.0625em;
   font-weight: 700;
   margin: 1em auto;
   text-align: center;
-  padding: 0em 0em 1em 0em; }
+  padding: 0em 0em 0.3em 0em; }
 
 .logo {
   margin: 3em auto;
@@ -895,17 +619,20 @@ footer {
     color: #282828; }
   .post-list a:hover {
     color: #FF6603; }
+  .post-list h2 {
+    margin-bottom: 0.3em; }
 
 .post-title {
-  font-size: 65px;
+  font-size: 4.0625em;
   margin: 1em auto 1em auto; }
 
 .post-meta {
-  font-size: 22px;
+  font-size: 1.25em;
   margin: 0.5em auto 0 auto; }
 
 .post-content {
   font-weight: 400;
+  font-family: "open-sans", Arial, sans-serif;
   text-align: left;
   margin: 2em auto 0 auto;
   line-height: 1.4em;
@@ -914,6 +641,9 @@ footer {
     color: #282828; }
   .post-content a:hover {
     color: #FF6603; }
+
+.post-excerpt p {
+  font-family: "open-sans", Arial, sans-serif; }
 
 .rss-subscribe a {
   color: #282828; }
@@ -1175,4 +905,6 @@ footer {
   margin: 0em 0em 1em 0em; }
 
 .about-content-main {
-  font-family: "fira-sans", Arial, sans-serif; }
+  font-family: "open-sans", Arial, sans-serif;
+  color: #282828;
+  font-size: 1.2em; }
