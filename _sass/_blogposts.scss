@@ -34,8 +34,12 @@
 }
 
 .post-title{
-	font-size: $MainContentHeaderSize;
+	font-size: 2em;
 	margin: 1em auto 1em auto;
+
+	@media (min-width: 600px){
+		font-size: $MainContentHeaderSize;
+	}
 
 }
 
@@ -43,6 +47,19 @@
 	font-size: $BlogDateSize;
 	margin: 0.5em auto 0 auto;
 	text-align: left;
+
+	@media (min-width: 600px){
+		margin: 0.5em auto 0 auto;
+	}
+}
+
+.move-left{
+	margin: 0.5em auto 0 1em;
+
+	@media (min-width: 600px){
+		margin: 0.5em auto 0 auto;
+	}
+
 }
 
 .post-content{
@@ -52,6 +69,7 @@
 	margin: 2em auto 0 auto;
 	line-height: 1.4em;
 	font-size: 1.2em;
+	width: 90%;
 
 	a{
 		color: $MainFontColor;
@@ -60,12 +78,22 @@
 	a:hover{
 		color: $HeaderHoverColor;
 	}
+
+	@media (min-width: 600px){
+		width: none;
+	}
 }
 
 .post-excerpt{
-
 	p{
 		font-family: $MainFont;
+		width: 80%;
+	}
+
+	@media (min-width: 600px){
+		p{
+			width: 100%;
+		}
 	}
 }
 
