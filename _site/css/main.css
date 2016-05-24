@@ -83,26 +83,50 @@
     .col-12:last-child {
       margin-right: auto; } }
 .homepage-main {
-  height: 41em; }
+  height: 28em; }
+  @media (min-width: 600px) {
+    .homepage-main {
+      height: 41em; } }
 
 .homepage-introA {
-  margin: 10em auto 0em auto;
+  margin: 3em auto 0em 1em;
   text-align: left; }
+  @media (min-width: 600px) {
+    .homepage-introA {
+      margin: 10em auto 0em auto; } }
 
 .hp-intro1 {
   font-family: "roboto", Arial, sans-serif;
   color: #46806E;
-  font-size: 5.5em;
+  font-size: 3em;
   font-weight: 800;
   line-height: 1.2em; }
+  @media (min-width: 600px) {
+    .hp-intro1 {
+      font-size: 5em; } }
+  @media (min-width: 900px) {
+    .hp-intro1 {
+      font-size: 5.5em; } }
 
 .hp-intro2a, .hp-intro2b, .hp-intro2c {
   font-family: "fira-sans", Arial, sans-serif;
   color: #FF6603;
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.2em;
-  display: inline-block;
   padding: 0em 0em 0.5em 0em; }
+  @media (min-width: 600px) {
+    .hp-intro2a, .hp-intro2b, .hp-intro2c {
+      font-size: 2.6em;
+      display: inline-block; } }
+  @media (min-width: 900px) {
+    .hp-intro2a, .hp-intro2b, .hp-intro2c {
+      font-size: 3.2em; } }
+
+.hp-intro2a {
+  margin: 0em 0em 0em 0.3em; }
+  @media (min-width: 600px) {
+    .hp-intro2a {
+      margin: 0em; } }
 
 .hp-intro3 {
   font-size: 2em;

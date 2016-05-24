@@ -5,33 +5,62 @@
 //Homepage
 
 .homepage-main{
-	height: 41em;
+	height: 28em;
+
+	@media (min-width: 600px){
+		height: 41em;
+	}
 }
 
 .homepage-introA{
-	margin: 10em auto 0em auto;
+	margin: 3em auto 0em 1em;
 	text-align: left;
+
+	@media (min-width: 600px){
+		margin: 10em auto 0em auto;
+	}
 }
 
 .hp-intro1{
 	font-family: $HeaderFont;
 	color: $HomePageIntroFontColor;
-	font-size: $HomePageIntroFontSize;
+	font-size: 3em;
 	font-weight: $HomePageIntroFontWeight;
 	line-height: 1.2em;
+
+	@media (min-width: 600px){
+		font-size: 5em;
+	}
+
+	@media (min-width: 900px){
+		font-size: $HomePageIntroFontSize;
+	}
 }
 
 %hp-intro2{
 	font-family: $MainContentFont;
 	color: $HomePageSubIntroFontColor;
-	font-size: $HomePageSubIntroFontSize;
+	font-size: 2em;
 	line-height: 1.2em;	
-	display: inline-block;
 	padding: 0em 0em 0.5em 0em;
+
+	@media (min-width: 600px){
+		font-size: 2.6em;
+		display: inline-block;
+	}
+
+	@media (min-width: 900px){
+		font-size: $HomePageSubIntroFontSize;
+	}
 }
 
 .hp-intro2a{
 	@extend %hp-intro2;
+	margin: 0em 0em 0em 0.3em;
+
+	@media (min-width: 600px){
+		margin: 0em;
+	}
 }
 
 .hp-intro2b{
