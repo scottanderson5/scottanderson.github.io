@@ -20,6 +20,8 @@
 	font-family: $MainFont;
 	color: $MainFontColor;
 	font-size: 1.2em;
+	padding: 0em 0em 1em 0em;
+	overflow: hidden;
 
 	a{
 		color: $MainFontColor;
@@ -28,6 +30,17 @@
 	a:hover{
 		color: $HeaderHoverColor;
 	}
+}
+
+.skills-wrap-left{
+	width: 40%;
+	float: left;
+}
+
+.skills-wrap-right{
+	width: 60%;
+	float: right;
+
 }
 
 

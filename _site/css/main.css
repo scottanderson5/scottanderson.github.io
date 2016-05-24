@@ -628,7 +628,8 @@ footer {
 
 .post-meta {
   font-size: 1.25em;
-  margin: 0.5em auto 0 auto; }
+  margin: 0.5em auto 0 auto;
+  text-align: left; }
 
 .post-content {
   font-weight: 400;
@@ -907,8 +908,18 @@ footer {
 .about-content-main {
   font-family: "open-sans", Arial, sans-serif;
   color: #282828;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  padding: 0em 0em 1em 0em;
+  overflow: hidden; }
   .about-content-main a {
     color: #282828; }
   .about-content-main a:hover {
     color: #FF6603; }
+
+.skills-wrap-left {
+  width: 40%;
+  float: left; }
+
+.skills-wrap-right {
+  width: 60%;
+  float: right; }
