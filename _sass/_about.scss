@@ -7,6 +7,11 @@
 .about-content{
 	margin: 0 auto;
 	text-align: left;
+	width: 80%;
+
+	@media (min-width: 600px){
+		width: none;
+	}
 }
 
 .about-content-intro{

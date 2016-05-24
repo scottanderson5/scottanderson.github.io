@@ -128,6 +128,21 @@
     .hp-intro2a {
       margin: 0em; } }
 
+.hp-intro2b {
+  margin: 0em; }
+  @media (min-width: 600px) {
+    .hp-intro2b {
+      margin: 0em 0em 0em 0.1em; } }
+
+.hp-intro2c {
+  margin: 0em; }
+  @media (min-width: 600px) {
+    .hp-intro2c {
+      margin: 0em 0em 0em -0.3em; } }
+  @media (min-width: 1230px) {
+    .hp-intro2c {
+      margin: 0em 0em 0em 0.1em; } }
+
 .hp-intro3 {
   font-size: 2em;
   line-height: 1.1em; }
@@ -455,11 +470,18 @@ body {
 .indi-header {
   font-family: "roboto", Arial, sans-serif;
   color: #46806E;
-  font-size: 4.0625em;
+  font-size: 2em;
   font-weight: 700;
-  margin: 1em auto;
+  margin: 0em auto;
   text-align: center;
   padding: 0em 0em 0.3em 0em; }
+  @media (min-width: 600px) {
+    .indi-header {
+      font-size: 3em;
+      margin: 1em auto; } }
+  @media (min-width: 900px) {
+    .indi-header {
+      font-size: 4.0625em; } }
 
 .logo {
   margin: 3em auto;
@@ -974,7 +996,11 @@ footer {
       margin-right: auto; } }
 .about-content {
   margin: 0 auto;
-  text-align: left; }
+  text-align: left;
+  width: 80%; }
+  @media (min-width: 600px) {
+    .about-content {
+      width: none; } }
 
 .about-content-intro {
   color: #FF6603;

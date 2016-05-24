@@ -65,10 +65,24 @@
 
 .hp-intro2b{
 	@extend %hp-intro2;
+	margin: 0em;
+
+	@media (min-width: 600px){
+		margin: 0em 0em 0em 0.1em;
+	}
 }
 
 .hp-intro2c{
 	@extend %hp-intro2;
+	margin: 0em;
+
+	@media (min-width: 600px){
+		margin: 0em 0em 0em -0.3em;
+	}
+
+	@media (min-width: 1230px){
+		margin: 0em 0em 0em 0.1em;
+	}
 }
 
 .hp-intro3{
