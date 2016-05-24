@@ -10,8 +10,16 @@ header{
 
 .header-wrap{
 	background-color: $HeaderWrapBackgroundColor;
-	height: 6.78em;
+	height: 6em;
 	position: relative;
+
+	@media (min-width: 600px){
+		height: 6.28em;
+	}
+
+	@media (min-width: 900px){
+		height: 6.78em;
+	}
 }
 
 .site-header{
@@ -21,45 +29,82 @@ header{
 	overflow: hidden;
 	margin-top: 0.8em;
 	position: absolute;
+	width: 100%;
 }
 
 .title-wrap{
 	float: left;
 	overflow: hidden;
 	padding: 1em;
+	display: none;
 
+	@media (min-width: 600px){
+		display: block;
+	}
+
+}
+
+.title-mobile{
+	display: block;
+	float: left;
+
+	@media (min-width: 600px){
+		display: none;
+	}
+}
+
+.title-mobile-logo{
+	width: 3.5em;
+	padding: 0.4em 0em 0.1em 0em;
 }
 
 .name{
 	font-weight: $TitleFontWeight;
-	font-size: $TitleFontSize;
+	font-size: 2em;
 	float: left;
 	padding-top: 0em;
 	a{
 		text-decoration: none;
 		color: $HeaderFontColor;
 	}
+
+	@media (min-width: 900px){
+		font-size: $TitleFontSize;
+	}
 }
 
 .label{
 	font-family: $HeaderFont;
 	font-weight: $TitleFontWeight;
-	font-size: $TitleLabelFontSize;
+	font-size: 1.2em;
 	float: left;
 	padding-left: 0.5em;
-	padding-top: 0.4em;
+	padding-top: 0.5em;
 	a{
 		text-decoration: none;
 		color: $TitleLabelFontColor;
+	}
+
+	@media (min-width: 900px){
+		font-size: $TitleLabelFontSize;
+		padding-top: 0.4em;
 	}
 }
 
 .trigger{
 	float: right;
-	padding: 1.6em 1em 1em 1em;
+	padding: 1.2em 1em 1em 1em;
 	a{
 		text-decoration: none;
 		color: $HeaderFontColor;
+	}
+
+	@media (min-width: 600px){
+		padding: 1.45em 1em 1em 1em;
+	}
+
+	@media (min-width: 900px){
+		padding: 1.6em 1em 1em 1em;
 	}
 }
 
@@ -73,3 +118,4 @@ header{
 .page-link:hover{
 	color: $HeaderHoverColor;
 }
+

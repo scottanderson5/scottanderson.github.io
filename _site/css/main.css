@@ -241,8 +241,14 @@ header {
 
 .header-wrap {
   background-color: #46806E;
-  height: 6.78em;
+  height: 6em;
   position: relative; }
+  @media (min-width: 600px) {
+    .header-wrap {
+      height: 6.28em; } }
+  @media (min-width: 900px) {
+    .header-wrap {
+      height: 6.78em; } }
 
 .site-header {
   background-color: #323232;
@@ -250,39 +256,68 @@ header {
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
-  position: absolute; }
+  position: absolute;
+  width: 100%; }
 
 .title-wrap {
   float: left;
   overflow: hidden;
-  padding: 1em; }
+  padding: 1em;
+  display: none; }
+  @media (min-width: 600px) {
+    .title-wrap {
+      display: block; } }
+
+.title-mobile {
+  display: block;
+  float: left; }
+  @media (min-width: 600px) {
+    .title-mobile {
+      display: none; } }
+
+.title-mobile-logo {
+  width: 3.5em;
+  padding: 0.4em 0em 0.1em 0em; }
 
 .name {
   font-weight: 600;
-  font-size: 2.3125em;
+  font-size: 2em;
   float: left;
   padding-top: 0em; }
   .name a {
     text-decoration: none;
     color: #EEEBE8; }
+  @media (min-width: 900px) {
+    .name {
+      font-size: 2.3125em; } }
 
 .label {
   font-family: "roboto", Arial, sans-serif;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.2em;
   float: left;
   padding-left: 0.5em;
-  padding-top: 0.4em; }
+  padding-top: 0.5em; }
   .label a {
     text-decoration: none;
     color: #FF6603; }
+  @media (min-width: 900px) {
+    .label {
+      font-size: 1.5em;
+      padding-top: 0.4em; } }
 
 .trigger {
   float: right;
-  padding: 1.6em 1em 1em 1em; }
+  padding: 1.2em 1em 1em 1em; }
   .trigger a {
     text-decoration: none;
     color: #EEEBE8; }
+  @media (min-width: 600px) {
+    .trigger {
+      padding: 1.45em 1em 1em 1em; } }
+  @media (min-width: 900px) {
+    .trigger {
+      padding: 1.6em 1em 1em 1em; } }
 
 .page-link {
   font-weight: 600;
@@ -505,7 +540,8 @@ footer {
   text-transform: uppercase;
   overflow: hidden;
   margin-top: 0.8em;
-  position: absolute; }
+  position: absolute;
+  width: 100%; }
 
 .contact-list {
   float: left;
