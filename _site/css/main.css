@@ -583,7 +583,7 @@ footer {
 
 .footer-wrap {
   background-color: #46806E;
-  height: 6.2em;
+  height: 6.3em;
   position: relative; }
 
 .site-footer {
@@ -597,10 +597,10 @@ footer {
   width: 100%; }
 
 .contact-list {
-  margin-left: 3em;
+  margin-right: 3em;
   list-style-type: none;
   font-size: 2em;
-  float: left; }
+  float: right; }
   .contact-list li {
     display: inline-block;
     margin: 0em 0.5em 0em 0em; }
