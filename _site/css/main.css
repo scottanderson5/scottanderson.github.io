@@ -415,7 +415,10 @@ body {
   background-color: #F3EADE; }
 
 .main-body {
-  margin: 0em auto; }
+  margin: 3em 0em 0em 7em; }
+  @media (min-width: 600px) {
+    .main-body {
+      margin: 0em auto; } }
 
 .whole-page {
   text-align: center;
