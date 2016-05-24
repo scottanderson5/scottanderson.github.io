@@ -89,7 +89,7 @@
       height: 41em; } }
 
 .homepage-introA {
-  margin: 3em auto 0em 1em;
+  margin: 1em auto 0em 1em;
   text-align: left; }
   @media (min-width: 600px) {
     .homepage-introA {
@@ -138,7 +138,7 @@
   margin: 0em; }
   @media (min-width: 600px) {
     .hp-intro2c {
-      margin: 0em 0em 0em -0.3em; } }
+      margin: 0em 0em 0em 0em; } }
   @media (min-width: 1230px) {
     .hp-intro2c {
       margin: 0em 0em 0em 0.1em; } }
@@ -850,7 +850,8 @@ footer {
   text-align: center; }
 
 .work-pictureA, .work-pictureB, .work-pictureC, .work-pictureD {
-  overflow: hidden; }
+  overflow: hidden;
+  width: 46%; }
 
 .work-pictureA {
   float: left; }
@@ -867,45 +868,62 @@ footer {
 .photoA {
   float: left;
   margin: 0 1em 0 1em;
-  width: 24em;
-  height: 18em;
+  width: 98%;
   position: relative; }
 
 .photoB {
   float: right;
   margin: 0 1em 0 1em;
-  width: 24em;
-  height: 18em;
+  width: 98%;
   position: relative; }
 
 .descriptionE, .descriptionF, .descriptionA, .descriptionB, .descriptionC, .descriptionD {
-  margin: 0 auto;
   position: absolute;
-  height: 5.3em;
-  width: 17em;
-  padding-top: 10em;
-  font-size: 24px;
+  font-size: 0.9em;
   color: white;
   opacity: 0;
-  transition: 1s; }
+  transition: 1s;
+  width: 36%; }
+  @media (min-width: 600px) {
+    .descriptionE, .descriptionF, .descriptionA, .descriptionB, .descriptionC, .descriptionD {
+      font-size: 1em;
+      width: 30%; } }
+  @media (min-width: 900px) {
+    .descriptionE, .descriptionF, .descriptionA, .descriptionB, .descriptionC, .descriptionD {
+      font-size: 1.2em; } }
 
 .descriptionE {
   font-family: 'Noto Sans', sans-serif;
-  float: left; }
+  padding-top: 21%;
+  margin: 0em 0em 0em 2em; }
+  @media (min-width: 600px) {
+    .descriptionE {
+      padding-top: 15%;
+      margin: 0em 0em 0em 0.5em; } }
 
 .descriptionE:hover {
   opacity: 1; }
 
 .descriptionF {
   font-family: 'Libre Baskerville', serif;
-  float: left; }
+  padding-top: 19%;
+  margin: 0em 0em 0em 1em; }
+  @media (min-width: 600px) {
+    .descriptionF {
+      margin: 0em;
+      padding-top: 15%; } }
 
 .descriptionF:hover {
   opacity: 1; }
 
 .descriptionA {
   font-family: 'industry-inc-stencil', Arial, sans-serif;
-  float: left; }
+  padding-top: 21%;
+  margin: 0em 0em 0em 2em; }
+  @media (min-width: 600px) {
+    .descriptionA {
+      padding-top: 15%;
+      margin: 0em 0em 0em 0.5em; } }
 
 .descriptionA:hover {
   opacity: 1; }
@@ -913,14 +931,27 @@ footer {
 .descriptionB {
   font-family: 'source-sans-pro', Arial, sans-serif;
   font-weight: 500;
-  float: right; }
+  padding-top: 21%;
+  margin: 0em 0em 0em 1em; }
+  @media (min-width: 600px) {
+    .descriptionB {
+      margin: 0em;
+      padding-top: 15%; } }
 
 .descriptionB:hover {
   opacity: 1; }
 
 .descriptionC {
   font-family: 'adelle', Arial, sans-serif;
-  float: left; }
+  padding-top: 17%;
+  margin: 0em 0em 0em 2em; }
+  @media (min-width: 600px) {
+    .descriptionC {
+      margin: 0em 0em 0em 0.5em;
+      padding-top: 15%; } }
+  @media (min-width: 900px) {
+    .descriptionC {
+      padding-top: 16%; } }
 
 .descriptionC:hover {
   opacity: 1; }
@@ -928,7 +959,15 @@ footer {
 .descriptionD {
   font-family: 'roboto', Arial, sans-serif;
   font-weight: 500;
-  float: right; }
+  padding-top: 21%;
+  margin: 0em 0em 0em 1em; }
+  @media (min-width: 600px) {
+    .descriptionD {
+      margin: 0em;
+      padding-top: 15%; } }
+  @media (min-width: 900px) {
+    .descriptionD {
+      padding-top: 16%; } }
 
 .descriptionD:hover {
   opacity: 1; }

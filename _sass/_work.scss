@@ -13,6 +13,7 @@
 
 %work-picture{
 	overflow: hidden;
+	width: 46%;
 }
 
 .work-pictureA{
@@ -38,38 +39,53 @@
 .photoA{
 	float: left;
 	margin: 0 1em 0 1em;
-	width: 24em;
-	height: 18em;
+	//width: 24em;
+	//height: 18em;
+	width: 98%;
+	//height: 100%;
 	position: relative;	
-	//box-shadow: 3px 15px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 
 .photoB{
 	float: right;
 	margin: 0 1em 0 1em;
-	width: 24em;
-	height: 18em;
+	//width: 24em;
+	//height: 18em;
+	width: 98%;
 	position: relative;
-	//box-shadow: 3px 15px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
+
 %description{
-	margin: 0 auto;
 	position: absolute;
-	height: 5.3em;
-	width: 17em;
-	padding-top: 10em;
-	font-size: 24px;
+	font-size: 0.9em;
 	color: white;
 	opacity: 0;
 	transition: 1s;
+	width: 36%;
+
+	@media (min-width: 600px){
+		font-size: 1em;
+		width: 30%;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.2em;
+		
+	}
 }
 
 .descriptionE{
 	@extend %description;
 	font-family: 'Noto Sans', sans-serif;
-	float: left;
+	padding-top: 21%;
+	margin: 0em 0em 0em 2em;
+
+	@media (min-width: 600px){
+		padding-top: 15%;
+		margin: 0em 0em 0em 0.5em;
+	}
 }
 
 .descriptionE:hover{
@@ -79,7 +95,13 @@
 .descriptionF{
 	@extend %description;
 	font-family: 'Libre Baskerville', serif;
-	float: left;
+	padding-top: 19%;
+	margin: 0em 0em 0em 1em;
+
+	@media (min-width: 600px){
+		margin: 0em;
+		padding-top: 15%;
+	}
 }
 
 .descriptionF:hover{
@@ -89,7 +111,13 @@
 .descriptionA{
 	@extend %description;
 	font-family: 'industry-inc-stencil', Arial, sans-serif;
-	float: left;
+	padding-top: 21%;
+	margin: 0em 0em 0em 2em;
+
+	@media (min-width: 600px){
+		padding-top: 15%;
+		margin: 0em 0em 0em 0.5em;
+	}
 }
 
 .descriptionA:hover{
@@ -100,7 +128,13 @@
 	@extend %description;
 	font-family: 'source-sans-pro', Arial, sans-serif;
 	font-weight: 500;
-	float: right;
+	padding-top: 21%;
+	margin: 0em 0em 0em 1em;
+
+	@media (min-width: 600px){
+		margin: 0em;
+		padding-top: 15%;
+	}
 }
 
 .descriptionB:hover{
@@ -110,7 +144,17 @@
 .descriptionC{
 	@extend %description;
 	font-family: 'adelle', Arial, sans-serif;
-	float: left;
+	padding-top: 17%;
+	margin: 0em 0em 0em 2em;
+
+	@media (min-width: 600px){
+		margin: 0em 0em 0em 0.5em;
+		padding-top: 15%;
+	}
+
+	@media (min-width: 900px){
+		padding-top: 16%;
+	}	
 }
 
 .descriptionC:hover{
@@ -121,7 +165,17 @@
 	@extend %description;
 	font-family: 'roboto', Arial, sans-serif;
 	font-weight: 500;
-	float: right;
+	padding-top: 21%;
+	margin: 0em 0em 0em 1em;
+
+	@media (min-width: 600px){
+		margin: 0em;
+		padding-top: 15%;
+	}
+
+	@media (min-width: 900px){
+		padding-top: 16%;
+	}
 }
 
 .descriptionD:hover{
