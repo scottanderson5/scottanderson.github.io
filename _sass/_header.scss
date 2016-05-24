@@ -93,7 +93,7 @@ header{
 
 .trigger{
 	float: right;
-	padding: 1.2em 1em 1em 1em;
+	padding: 1.5em 1em 1em 1em;
 	a{
 		text-decoration: none;
 		color: $HeaderFontColor;
@@ -110,8 +110,12 @@ header{
 
 .page-link{
 	font-weight: $PageTitleFontWeight;
-	font-size: $PageTitleFontSize;
+	font-size: 1.2em;
 	margin-right: 0.5em;
+
+	@media (min-width: 600px){
+		font-size: $PageTitleFontSize;
+	}
 
 }
 
