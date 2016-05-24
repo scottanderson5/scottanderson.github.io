@@ -770,7 +770,7 @@ footer {
   height: 18em;
   position: relative; }
 
-.descriptionA, .descriptionB, .descriptionC, .descriptionD {
+.descriptionE, .descriptionF, .descriptionA, .descriptionB, .descriptionC, .descriptionD {
   margin: 0 auto;
   position: absolute;
   height: 5.3em;
@@ -780,6 +780,20 @@ footer {
   color: white;
   opacity: 0;
   transition: 1s; }
+
+.descriptionE {
+  font-family: 'Noto Sans', sans-serif;
+  float: left; }
+
+.descriptionE:hover {
+  opacity: 1; }
+
+.descriptionF {
+  font-family: 'Libre Baskerville', serif;
+  float: left; }
+
+.descriptionF:hover {
+  opacity: 1; }
 
 .descriptionA {
   font-family: 'industry-inc-stencil', Arial, sans-serif;

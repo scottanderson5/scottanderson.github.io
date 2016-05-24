@@ -64,6 +64,26 @@
 	transition: 1s;
 }
 
+.descriptionE{
+	@extend %description;
+	font-family: 'Noto Sans', sans-serif;
+	float: left;
+}
+
+.descriptionE:hover{
+	opacity: 1;
+}
+
+.descriptionF{
+	@extend %description;
+	font-family: 'Libre Baskerville', serif;
+	float: left;
+}
+
+.descriptionF:hover{
+	opacity: 1;
+}
+
 .descriptionA{
 	@extend %description;
 	font-family: 'industry-inc-stencil', Arial, sans-serif;
