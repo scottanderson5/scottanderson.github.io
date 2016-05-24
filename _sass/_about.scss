@@ -45,29 +45,75 @@
 	}
 }
 
-.skills-wrap-left{
-	width: 40%;
+.about-content-wrap{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+
+	@media (min-width: 600px){
+		width: none;
+	}
+
+}
+
+%about-contentA{
+	margin: 0 auto;
+	text-align: left;
+	width: 80%;
+
+	@media (min-width: 600px){
+		width: none;
+	}
+}
+
+.about-contentA1{
+	@extend %about-contentA;
 	float: left;
+	width: 45%;
+}
+
+.about-contentA2{
+	@extend %about-contentA;
+	float: right;
+	width: 45%;
+}
+
+.skills-wrap-left{
+	width: 50%;
 
 	li{
 		font-size: 0.8em;
+		list-style-type: none;
 	}
 
 	@media (min-width: 600px){
+		font-size: 1em;
+		float: left;
+	}
+
+	@media (min-width: 1200px){
 		font-size: 1.2em;
 	}
 }
 
 .skills-wrap-right{
-	width: 60%;
-	float: right;
-
+	width: 30%;
 
 	li{
 		font-size: 0.8em;
+		list-style-type: none;
 	}
 
 	@media (min-width: 600px){
+		font-size: 0.9em;
+		float: left;
+	}
+
+	@media (min-width: 800px){
+		font-size: 1em;
+	}
+
+	@media (min-width: 1200px){
 		font-size: 1.2em;
 	}
 

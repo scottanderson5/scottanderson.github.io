@@ -1095,20 +1095,55 @@ footer {
   .about-content-main a:hover {
     color: #FF6603; }
 
-.skills-wrap-left {
-  width: 40%;
-  float: left; }
-  .skills-wrap-left li {
-    font-size: 0.8em; }
+.about-content-wrap {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%; }
   @media (min-width: 600px) {
+    .about-content-wrap {
+      width: none; } }
+
+.about-contentA1, .about-contentA2 {
+  margin: 0 auto;
+  text-align: left;
+  width: 80%; }
+  @media (min-width: 600px) {
+    .about-contentA1, .about-contentA2 {
+      width: none; } }
+
+.about-contentA1 {
+  float: left;
+  width: 45%; }
+
+.about-contentA2 {
+  float: right;
+  width: 45%; }
+
+.skills-wrap-left {
+  width: 50%; }
+  .skills-wrap-left li {
+    font-size: 0.8em;
+    list-style-type: none; }
+  @media (min-width: 600px) {
+    .skills-wrap-left {
+      font-size: 1em;
+      float: left; } }
+  @media (min-width: 1200px) {
     .skills-wrap-left {
       font-size: 1.2em; } }
 
 .skills-wrap-right {
-  width: 60%;
-  float: right; }
+  width: 30%; }
   .skills-wrap-right li {
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    list-style-type: none; }
   @media (min-width: 600px) {
+    .skills-wrap-right {
+      font-size: 0.9em;
+      float: left; } }
+  @media (min-width: 800px) {
+    .skills-wrap-right {
+      font-size: 1em; } }
+  @media (min-width: 1200px) {
     .skills-wrap-right {
       font-size: 1.2em; } }
