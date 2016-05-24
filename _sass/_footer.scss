@@ -11,7 +11,7 @@ footer{
 
 .footer-wrap{
 	background-color: $FooterWrapBackgroundColor;
-	height: 3.8em;
+	height: 6.2em;
 	position: relative;
 }
 
@@ -21,20 +21,38 @@ footer{
 	text-transform: uppercase;
 	overflow: hidden;
 	margin-top: 0.8em;
+	padding: 1em 0em 1em 0em;
 	position: absolute;
 	width: 100%;
 }
 
 .contact-list{
-	float: left;
-	margin-left: 4em;
+	margin-left: 3em;
 	list-style-type: none;
+	font-size: 2em;
+	float: left;
+
+	li{
+		display: inline-block;
+		margin: 0em 0.5em 0em 0em;
+	}
+
 }
 
-.social-media-icon{
-	padding: 0.2em;
+.social-icon{
+	color: white;
 }
 
-.icon{
-	width: 2em;
+
+.social-icon:hover{
+	color: $HeaderHoverColor;
 }
+
+
+
+
+
+
+
+
+

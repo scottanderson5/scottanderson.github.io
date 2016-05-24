@@ -39,10 +39,7 @@
 .photoA{
 	float: left;
 	margin: 0 1em 0 1em;
-	//width: 24em;
-	//height: 18em;
 	width: 98%;
-	//height: 100%;
 	position: relative;	
 }
 
@@ -50,8 +47,6 @@
 .photoB{
 	float: right;
 	margin: 0 1em 0 1em;
-	//width: 24em;
-	//height: 18em;
 	width: 98%;
 	position: relative;
 }
@@ -72,7 +67,10 @@
 
 	@media (min-width: 900px){
 		font-size: 1.2em;
-		
+	}
+
+	@media (min-width: 1100px){
+		font-size: 1.5em;
 	}
 }
 
