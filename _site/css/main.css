@@ -1028,8 +1028,14 @@ footer {
 .about-content-intro {
   color: #FF6603;
   font-family: "roboto", Arial, sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0em 0em 1em 0em; }
+  @media (min-width: 600px) {
+    .about-content-intro {
+      font-size: 1.8em; } }
+  @media (min-width: 900px) {
+    .about-content-intro {
+      font-size: 2em; } }
 
 .about-content-main {
   font-family: "open-sans", Arial, sans-serif;
@@ -1045,7 +1051,17 @@ footer {
 .skills-wrap-left {
   width: 40%;
   float: left; }
+  .skills-wrap-left li {
+    font-size: 0.8em; }
+  @media (min-width: 600px) {
+    .skills-wrap-left {
+      font-size: 1em; } }
 
 .skills-wrap-right {
   width: 60%;
   float: right; }
+  .skills-wrap-right li {
+    font-size: 0.8em; }
+  @media (min-width: 600px) {
+    .skills-wrap-right {
+      font-size: 1em; } }
