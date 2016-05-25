@@ -1278,9 +1278,10 @@ footer {
   width: 90%; }
 
 .project-text-bottom {
-  padding: 0em 0em 1em 0em; }
+  padding: 0.2em 0em 1em 0em; }
   .project-text-bottom a {
-    margin-right: 1em; }
+    margin-right: 1em;
+    text-decoration: none; }
 
 .project-pic-bottom {
   display: inline-block;
