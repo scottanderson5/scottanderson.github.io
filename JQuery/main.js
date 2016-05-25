@@ -17,6 +17,15 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {		
+	$('.gallery-itemB').magnificPopup({
+  		type: 'image',
+  		gallery:{
+    		enabled:true
+  		}
+	});
+});
+
 
 
 
