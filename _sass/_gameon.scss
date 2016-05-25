@@ -2,7 +2,7 @@
 @import	"fonts";
 @import "grid";	
 
-.gameon-small-intro{
+.project-small-intro{
 	font-family: $MainFont;
 	font-size: 1.2em;
 	margin: 0 auto;
@@ -17,17 +17,32 @@
 	}
 }
 
-.about-text-wrap{
+.project-content-intro{
+	color: $AboutIntroFontHeader;
+	font-family: $HeaderFont;
+	font-size: 1.5em;
+	margin: 0.5em 0em 0.5em 0em;
+
+	@media (min-width: 600px){
+		font-size: 1.8em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 2em;
+	}
+}
+
+.project-text-wrap{
 	overflow: hidden;
 }
 
-.about-text-left{
+.project-text-left{
 	float: left;
 	width: 45%;
 
 }
 
-.about-pic-right{
+.project-pic-right{
 	width: 55%;
 	padding-top: 10%;
 	overflow: hidden;
@@ -38,3 +53,32 @@
 	float: right;
 	width: 70%;
 }
+
+.project-text-top{
+	width: 90%;
+}
+
+
+.project-text-bottom{
+	padding: 0em 0em 1em 0em;
+	
+	a{
+		margin-right: 1em;
+	}
+}
+
+.project-pic-bottom{
+	display: inline-block;
+	width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1235,24 +1235,36 @@ footer {
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-.gameon-small-intro {
+.project-small-intro {
   font-family: "open-sans", Arial, sans-serif;
   font-size: 1.2em;
   margin: 0 auto;
   text-align: left; }
-  .gameon-small-intro a {
+  .project-small-intro a {
     color: #282828; }
-  .gameon-small-intro a:hover {
+  .project-small-intro a:hover {
     color: #FF6603; }
 
-.about-text-wrap {
+.project-content-intro {
+  color: #FF6603;
+  font-family: "roboto", Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 0.5em 0em 0.5em 0em; }
+  @media (min-width: 600px) {
+    .project-content-intro {
+      font-size: 1.8em; } }
+  @media (min-width: 900px) {
+    .project-content-intro {
+      font-size: 2em; } }
+
+.project-text-wrap {
   overflow: hidden; }
 
-.about-text-left {
+.project-text-left {
   float: left;
   width: 45%; }
 
-.about-pic-right {
+.project-pic-right {
   width: 55%;
   padding-top: 10%;
   overflow: hidden;
@@ -1261,6 +1273,18 @@ footer {
 .foundations-pic-size {
   float: right;
   width: 70%; }
+
+.project-text-top {
+  width: 90%; }
+
+.project-text-bottom {
+  padding: 0em 0em 1em 0em; }
+  .project-text-bottom a {
+    margin-right: 1em; }
+
+.project-pic-bottom {
+  display: inline-block;
+  width: 30%; }
 
 /* Magnific Popup CSS */
 .mfp-bg {
