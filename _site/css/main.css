@@ -1250,12 +1250,13 @@ footer {
 
 .about-text-left {
   float: left;
-  width: 55%; }
+  width: 45%; }
 
 .about-pic-right {
-  float: right;
-  width: 40%;
-  overflow: hidden; }
+  width: 55%;
+  padding-top: 10%;
+  overflow: hidden;
+  float: right; }
 
 .foundations-pic-size {
   float: right;
