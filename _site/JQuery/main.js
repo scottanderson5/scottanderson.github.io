@@ -1,3 +1,17 @@
+
+
+$(document).ready(function() {	
+	$('.test-popup-link').magnificPopup({
+	  type: 'image'
+	  // other options
+	});
+});	
+
+
+
+
+
+
 //$(document).ready(function() {
 //   if($(".splash").is(":visible")) {
 //        $(".wrapper").css({"opacity":"0"});
