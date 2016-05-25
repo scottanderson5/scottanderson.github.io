@@ -5,6 +5,8 @@
 .gameon-small-intro{
 	font-family: $MainFont;
 	font-size: 1.2em;
+	margin: 0 auto;
+	text-align: left;
 
 	a{
 		color: $MainFontColor;
@@ -13,4 +15,25 @@
 	a:hover{
 		color: $HeaderHoverColor;
 	}
+}
+
+.about-text-wrap{
+	overflow: hidden;
+}
+
+.about-text-left{
+	float: left;
+	width: 55%;
+
+}
+
+.about-pic-right{
+	float: right;
+	width: 40%;
+	overflow: hidden;
+}
+
+.foundations-pic-size{
+	float: right;
+	width: 70%;
 }

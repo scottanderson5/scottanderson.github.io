@@ -1237,8 +1237,26 @@ footer {
       margin-right: auto; } }
 .gameon-small-intro {
   font-family: "open-sans", Arial, sans-serif;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: left; }
   .gameon-small-intro a {
     color: #282828; }
   .gameon-small-intro a:hover {
     color: #FF6603; }
+
+.about-text-wrap {
+  overflow: hidden; }
+
+.about-text-left {
+  float: left;
+  width: 55%; }
+
+.about-pic-right {
+  float: right;
+  width: 40%;
+  overflow: hidden; }
+
+.foundations-pic-size {
+  float: right;
+  width: 70%; }
