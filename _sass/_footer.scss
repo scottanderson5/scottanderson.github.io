@@ -27,16 +27,20 @@ footer{
 }
 
 .contact-list{
-	margin-right: 3em;
 	list-style-type: none;
 	font-size: 2em;
-	float: right;
-
+	text-align: center;
+	
 	li{
 		display: inline-block;
 		margin: 0em 0.5em 0em 0em;
 	}
 
+	@media (min-width: 600px){
+		margin-right: 3em;
+		float: right;
+
+	}
 }
 
 .social-icon{

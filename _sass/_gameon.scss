@@ -1,0 +1,16 @@
+@import "colors";
+@import	"fonts";
+@import "grid";	
+
+.gameon-small-intro{
+	font-family: $MainFont;
+	font-size: 1.2em;
+
+	a{
+		color: $MainFontColor;
+	}
+
+	a:hover{
+		color: $HeaderHoverColor;
+	}
+}
