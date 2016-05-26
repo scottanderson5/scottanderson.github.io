@@ -1279,7 +1279,8 @@ footer {
   padding: 0em 0em 0.5em 0em; }
 
 .project-text-bottom {
-  padding: 0.2em 0em 1em 0em; }
+  padding: 0.2em 0em 1em 0em;
+  text-align: center; }
   .project-text-bottom a {
     margin-right: 1em;
     text-decoration: none; }
