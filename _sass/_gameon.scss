@@ -2,6 +2,41 @@
 @import	"fonts";
 @import "grid";	
 
+.project-header-wrap{
+	margin: 3.5em auto 0em auto;
+
+	a{
+		color: $MainFontColor;
+	}
+
+	a:hover{
+		color: $HeaderHoverColor;
+	}
+}
+
+.project-header{
+	font-family: $HeaderFont;
+	color: $PageHeaderColor;
+	font-size: 2em;
+	font-weight: $PageHeaderFontWeight;
+	margin: 0em auto;
+	text-align: center;
+	padding: 0em 0em 0.3em 0em;
+
+	@media (min-width: 600px){
+		font-size: 3em;
+		margin: 1em auto;
+	}
+
+	@media (min-width: 900px){
+		font-size: $PageHeaderFontSize;
+	}
+}
+
+.project-links{
+	font-size: 1.2em;
+}
+
 .project-small-intro{
 	font-family: $MainFont;
 	font-size: 1.2em;

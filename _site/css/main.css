@@ -1235,6 +1235,32 @@ footer {
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
+.project-header-wrap {
+  margin: 3.5em auto 0em auto; }
+  .project-header-wrap a {
+    color: #282828; }
+  .project-header-wrap a:hover {
+    color: #FF6603; }
+
+.project-header {
+  font-family: "roboto", Arial, sans-serif;
+  color: #46806E;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0em auto;
+  text-align: center;
+  padding: 0em 0em 0.3em 0em; }
+  @media (min-width: 600px) {
+    .project-header {
+      font-size: 3em;
+      margin: 1em auto; } }
+  @media (min-width: 900px) {
+    .project-header {
+      font-size: 4.0625em; } }
+
+.project-links {
+  font-size: 1.2em; }
+
 .project-small-intro {
   font-family: "open-sans", Arial, sans-serif;
   font-size: 1.2em;
