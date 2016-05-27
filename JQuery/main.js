@@ -35,6 +35,15 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {		
+	$('.gallery-itemD').magnificPopup({
+  		type: 'image',
+  		gallery:{
+    		enabled:true
+  		}
+	});
+});
+
 
 
 
