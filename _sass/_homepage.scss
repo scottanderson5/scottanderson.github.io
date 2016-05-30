@@ -26,7 +26,8 @@
 	color: $HomePageIntroFontColor;
 	font-size: 3em;
 	font-weight: $HomePageIntroFontWeight;
-	line-height: 1.2em;
+	line-height: 1em;
+	margin-bottom: 1em;
 
 	@media (min-width: 600px){
 		font-size: 5em;
@@ -41,7 +42,7 @@
 	font-family: $MainContentFont;
 	color: $HomePageSubIntroFontColor;
 	font-size: 2em;
-	line-height: 1.2em;	
+	line-height: 1em;	
 	padding: 0em 0em 0.5em 0em;
 
 	@media (min-width: 600px){
