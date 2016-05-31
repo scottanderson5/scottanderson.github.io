@@ -25,11 +25,10 @@
 	font-weight: $PageHeaderFontWeight;
 	margin: 0em auto;
 	text-align: center;
-	padding: 0em 0em 0.3em 0em;
 
 	@media (min-width: 600px){
-		font-size: 3em;
-		margin: 1em auto;
+		font-size: 2.5em;
+		margin: 1em auto 0em auto;
 	}
 
 	@media (min-width: 900px){
@@ -37,12 +36,22 @@
 	}
 }
 
-.project-links{
+%project-links{
 	font-size: 1em;
+	padding: 0em 0em 0.3em 0em;
 
 	@media (min-width: 900px){
 		font-size: 1.2em;
 	}
+}
+
+.project-linksA{
+	@extend %project-links;
+	color: $AboutIntroFontHeader;
+}
+
+.project-linksB{
+	@extend %project-links;
 }
 
 .project-small-intro{
@@ -102,11 +111,10 @@
 	padding-top: 1em;
 	padding-left: 4em;
 	overflow: hidden;
-	//float: right;
 
 	@media (min-width: 600px){
 		float: right;
-		padding-top: 30%;
+		padding-top: 15%;
 		padding-left: 0em;
 	}
 
@@ -135,7 +143,6 @@
 .project-text-bottom{
 	padding: 0.2em 0.5em 1em 0.5em;
 	text-align: center;
-	//width: 90%;
 	
 	a{
 		margin-right: 1em;
@@ -143,7 +150,6 @@
 	}
 
 	@media (min-width: 600px){
-		//width: 100%;
 		padding: 0.2em 0em 1em 0em;
 	}
 }
