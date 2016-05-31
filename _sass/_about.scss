@@ -32,7 +32,7 @@
 .about-content-main{
 	font-family: $MainFont;
 	color: $MainFontColor;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 0em 0em 1em 0em;
 	overflow: hidden;
 
@@ -42,6 +42,10 @@
 
 	a:hover{
 		color: $HeaderHoverColor;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.2em;
 	}
 }
 
