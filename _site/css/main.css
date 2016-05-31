@@ -285,7 +285,7 @@ header {
   position: relative; }
   @media (min-width: 600px) {
     .header-wrap {
-      height: 6.28em; } }
+      height: 5.60em; } }
   @media (min-width: 900px) {
     .header-wrap {
       height: 6.78em; } }
@@ -321,20 +321,21 @@ header {
 
 .name {
   font-weight: 600;
-  font-size: 2em;
+  font-size: 1.3em;
   float: left;
-  padding-top: 0em; }
+  padding-top: 0.2em; }
   .name a {
     text-decoration: none;
     color: #EEEBE8; }
   @media (min-width: 900px) {
     .name {
+      padding-top: 0em;
       font-size: 2.3125em; } }
 
 .label {
   font-family: "roboto", Arial, sans-serif;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1em;
   float: left;
   padding-left: 0.5em;
   padding-top: 0.5em; }
@@ -361,9 +362,12 @@ header {
 
 .page-link {
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-right: 0.5em; }
   @media (min-width: 600px) {
+    .page-link {
+      font-size: 1.2em; } }
+  @media (min-width: 900px) {
     .page-link {
       font-size: 1.5em; } }
 
