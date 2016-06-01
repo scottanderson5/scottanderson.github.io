@@ -106,20 +106,43 @@
 
 }
 
-.project-pic-right{
+%project-pic-right{
 	width: 55%;
-	padding-top: 1em;
-	padding-left: 4em;
 	overflow: hidden;
 
 	@media (min-width: 600px){
 		float: right;
+	}
+
+}
+
+.project-pic-right{
+	@extend %project-pic-right;
+	padding-top: 1em;
+	padding-left: 4em;
+
+	@media (min-width: 600px){
 		padding-top: 15%;
 		padding-left: 0em;
 	}
 
 	@media (min-width: 900px){
 		padding-top: 10%;
+	}
+}
+
+.project-pic-rightRA{
+	@extend %project-pic-right;
+	padding-top: 1em;
+	padding-left: 4em;
+
+	@media (min-width: 600px){
+		padding-top: 14%;
+		padding-left: 0em;
+	}
+
+	@media (min-width: 900px){
+		padding-top: 3%;
 	}
 }
 

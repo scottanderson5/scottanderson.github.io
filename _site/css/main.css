@@ -1317,19 +1317,34 @@ footer {
       width: 45%;
       margin: 0em; } }
 
-.project-pic-right {
+.project-pic-right, .project-pic-rightRA {
   width: 55%;
-  padding-top: 1em;
-  padding-left: 4em;
   overflow: hidden; }
   @media (min-width: 600px) {
+    .project-pic-right, .project-pic-rightRA {
+      float: right; } }
+
+.project-pic-right {
+  padding-top: 1em;
+  padding-left: 4em; }
+  @media (min-width: 600px) {
     .project-pic-right {
-      float: right;
       padding-top: 15%;
       padding-left: 0em; } }
   @media (min-width: 900px) {
     .project-pic-right {
       padding-top: 10%; } }
+
+.project-pic-rightRA {
+  padding-top: 1em;
+  padding-left: 4em; }
+  @media (min-width: 600px) {
+    .project-pic-rightRA {
+      padding-top: 14%;
+      padding-left: 0em; } }
+  @media (min-width: 900px) {
+    .project-pic-rightRA {
+      padding-top: 3%; } }
 
 .foundations-pic-size {
   float: right;
