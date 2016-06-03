@@ -82,12 +82,6 @@
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-.homepage-main {
-  height: 28em; }
-  @media (min-width: 600px) {
-    .homepage-main {
-      height: 41em; } }
-
 .homepage-introA {
   margin: 1em auto 0em 1em;
   text-align: left; }
@@ -101,7 +95,8 @@
   font-size: 3em;
   font-weight: 800;
   line-height: 1em;
-  margin-bottom: 1em; }
+  margin-bottom: 0.4em;
+  margin-left: 10%; }
   @media (min-width: 600px) {
     .hp-intro1 {
       font-size: 5em; } }
@@ -117,11 +112,14 @@
   padding: 0em 0em 0.5em 0em; }
   @media (min-width: 600px) {
     .hp-intro2a, .hp-intro2b, .hp-intro2c {
-      font-size: 2.6em;
+      font-size: 2em;
       display: inline-block; } }
   @media (min-width: 900px) {
     .hp-intro2a, .hp-intro2b, .hp-intro2c {
-      font-size: 3.2em; } }
+      font-size: 3.1em; } }
+
+.sub-intro-wrap {
+  margin-left: 10%; }
 
 .hp-intro2a {
   margin: 0em 0em 0em 0.09em; }
@@ -148,6 +146,13 @@
   font-size: 2em;
   line-height: 1.1em; }
 
+.homepage-welcome {
+  position: absolute;
+  width: 100%; }
+
+.homeportfolio {
+  position: relative; }
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0; }
@@ -163,19 +168,37 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
 .fade-in {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
-  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
   -moz-animation: fadeIn ease-in 1;
   animation: fadeIn ease-in 1;
   -webkit-animation-fill-mode: forwards;
-  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s; }
+
+.fade-out {
+  opacity: 1;
+  -webkit-animation: fadeOut ease-in 1;
+  -moz-animation: fadeOut ease-in 1;
+  animation: fadeOut ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 4.2s;
+  -moz-animation-delay: 4.2s;
+  animation-delay: 4.2s; }
 
 .fade-in.one {
   -webkit-animation-delay: 0.7s;
@@ -191,6 +214,11 @@
   -webkit-animation-delay: 2.8s;
   -moz-animation-delay: 2.8s;
   animation-delay: 2.8s; }
+
+.fade-in.four {
+  -webkit-animation-delay: 5.2s;
+  -moz-animation-delay: 5.2s;
+  animation-delay: 5.2s; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
