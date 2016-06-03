@@ -276,9 +276,6 @@
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-header {
-  margin-top: 1em; }
-
 .header-wrap {
   background-color: #46806E;
   height: 5.9em;
@@ -583,8 +580,7 @@ body {
     .col-12:last-child {
       margin-right: auto; } }
 footer {
-  margin-top: 2em;
-  margin-bottom: 1em; }
+  margin-top: 2em; }
 
 .footer-wrap {
   background-color: #46806E;
@@ -1158,6 +1154,22 @@ footer {
   @media (min-width: 1200px) {
     .skills-wrap-right {
       font-size: 1.2em; } }
+
+.work-rowB {
+  margin: 0 auto 2em auto;
+  padding: 0em 0em 1.5em 0em;
+  overflow: hidden;
+  margin-right: 0em; }
+
+.about-pictureA {
+  overflow: hidden;
+  width: 46%;
+  float: left; }
+
+.about-pictureB {
+  overflow: hidden;
+  width: 47.42%;
+  float: right; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
