@@ -20,4 +20,6 @@ This taught me an important lesson. Constructive feedback is important in all in
 
 Going forward, it will be vital for me to be paying attention to every detail and factor I can, while being open to those I may not readily see and others do. 
 
+Thank you Clearhead for the help. And mostly, for being awesome.
+
 
