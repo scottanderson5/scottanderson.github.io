@@ -127,9 +127,9 @@
 
 .work-rowB{
 	margin: 0 auto 2em auto;
-	padding: 0em 0em 1.5em 0em;
 	overflow: hidden;
 	margin-right: 0em;
+	padding: 0em 0em 2em 0em;
 
 }
 
@@ -143,6 +143,21 @@
 	overflow: hidden;
 	width: 41.1%;
 	float: right;
+}
+
+.about-photoA{
+	float: left;
+	margin: 0 1em 0em 0em;
+	width: 98%;
+	position: relative;	
+}
+
+
+.about-photoB{
+	float: right;
+	margin: 0 1em 0em 1em;
+	width: 98%;
+	position: relative;
 }
 
 

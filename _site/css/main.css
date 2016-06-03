@@ -103,6 +103,9 @@
   @media (min-width: 900px) {
     .hp-intro1 {
       font-size: 5.5em; } }
+  @media (min-width: 1300px) {
+    .hp-intro1 {
+      font-size: 7em; } }
 
 .hp-intro2a, .hp-intro2b, .hp-intro2c {
   font-family: "fira-sans", Arial, sans-serif;
@@ -117,6 +120,9 @@
   @media (min-width: 900px) {
     .hp-intro2a, .hp-intro2b, .hp-intro2c {
       font-size: 3.1em; } }
+  @media (min-width: 1300px) {
+    .hp-intro2a, .hp-intro2b, .hp-intro2c {
+      font-size: 4em; } }
 
 .sub-intro-wrap {
   margin-left: 10%; }
@@ -1185,9 +1191,9 @@ footer {
 
 .work-rowB {
   margin: 0 auto 2em auto;
-  padding: 0em 0em 1.5em 0em;
   overflow: hidden;
-  margin-right: 0em; }
+  margin-right: 0em;
+  padding: 0em 0em 2em 0em; }
 
 .about-pictureA {
   overflow: hidden;
@@ -1198,6 +1204,18 @@ footer {
   overflow: hidden;
   width: 41.1%;
   float: right; }
+
+.about-photoA {
+  float: left;
+  margin: 0 1em 0em 0em;
+  width: 98%;
+  position: relative; }
+
+.about-photoB {
+  float: right;
+  margin: 0 1em 0em 1em;
+  width: 98%;
+  position: relative; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/

@@ -4,14 +4,6 @@
 
 //Homepage
 
-.homepage-main{
-	//height: 28em;
-
-	@media (min-width: 600px){
-		//height: 41em;
-	}
-}
-
 .homepage-introA{
 	margin: 1em auto 0em 1em;
 	text-align: left;
@@ -37,6 +29,10 @@
 	@media (min-width: 900px){
 		font-size: $HomePageIntroFontSize;
 	}
+
+	@media (min-width: 1300px){
+		font-size: 7em;
+	}
 }
 
 %hp-intro2{
@@ -53,6 +49,10 @@
 
 	@media (min-width: 900px){
 		font-size: $HomePageSubIntroFontSize;
+	}
+
+	@media (min-width: 1300px){
+		font-size: 4em;
 	}
 }
 
