@@ -84,6 +84,9 @@
       margin-right: auto; } }
 @media (min-width: 600px) {
   .homepage-main {
+    height: 45em; } }
+@media (min-width: 900px) {
+  .homepage-main {
     height: 65em; } }
 
 .homepage-introA {

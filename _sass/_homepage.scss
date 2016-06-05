@@ -7,6 +7,10 @@
 .homepage-main{
 
 	@media (min-width: 600px){
+		height: 45em;
+	}
+
+	@media (min-width: 900px){
 		height: 65em;
 	}
 }
