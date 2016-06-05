@@ -4,6 +4,13 @@
 
 //Homepage
 
+.homepage-main{
+
+	@media (min-width: 600px){
+		height: 65em;
+	}
+}
+
 .homepage-introA{
 	margin: 1em auto 0em 1em;
 	text-align: left;

@@ -82,6 +82,10 @@
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
+@media (min-width: 600px) {
+  .homepage-main {
+    height: 65em; } }
+
 .homepage-introA {
   margin: 1em auto 0em 1em;
   text-align: left; }
