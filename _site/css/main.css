@@ -98,7 +98,7 @@
 
 .hp-intro1 {
   font-family: "roboto", Arial, sans-serif;
-  color: #46806E;
+  color: #54BCEB;
   font-size: 3em;
   font-weight: 800;
   line-height: 1em;
@@ -116,7 +116,7 @@
 
 .hp-intro2a, .hp-intro2b, .hp-intro2c {
   font-family: "fira-sans", Arial, sans-serif;
-  color: #FF6603;
+  color: #323232;
   font-size: 2em;
   line-height: 1em;
   padding: 0em 0em 0.5em 0em; }
@@ -318,7 +318,7 @@
     .col-12:last-child {
       margin-right: auto; } }
 .header-wrap {
-  background-color: #46806E;
+  background-color: #54BCEB;
   height: 5.9em;
   position: relative; }
   @media (min-width: 600px) {
@@ -379,7 +379,7 @@
   padding-top: 0.5em; }
   .label a {
     text-decoration: none;
-    color: #FF6603; }
+    color: #F8F7F3; }
   @media (min-width: 900px) {
     .label {
       font-size: 1.5em;
@@ -410,7 +410,7 @@
       font-size: 1.5em; } }
 
 .page-link:hover {
-  color: #FF6603; }
+  color: #54BCEB; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
@@ -497,7 +497,7 @@
     .col-12:last-child {
       margin-right: auto; } }
 body {
-  background-color: #F3EADE; }
+  background-color: #F8F7F3; }
 
 .main-body {
   margin: 3em 0em 0em 7em; }
@@ -515,7 +515,7 @@ body {
 
 .indi-header {
   font-family: "roboto", Arial, sans-serif;
-  color: #46806E;
+  color: #54BCEB;
   font-size: 2em;
   font-weight: 700;
   margin: 0em auto;
@@ -624,7 +624,7 @@ footer {
   margin-top: 2em; }
 
 .footer-wrap {
-  background-color: #46806E;
+  background-color: #54BCEB;
   height: 6.3em;
   position: relative; }
 
@@ -654,7 +654,7 @@ footer {
   color: white; }
 
 .social-icon:hover {
-  color: #FF6603; }
+  color: #54BCEB; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
@@ -756,7 +756,7 @@ footer {
     text-decoration: none;
     color: #282828; }
   .post-list a:hover {
-    color: #FF6603; }
+    color: #54BCEB; }
   .post-list h2 {
     margin-bottom: 0.3em; }
 
@@ -792,7 +792,7 @@ footer {
   .post-content a {
     color: #282828; }
   .post-content a:hover {
-    color: #FF6603; }
+    color: #54BCEB; }
   @media (min-width: 600px) {
     .post-content {
       width: none; } }
@@ -807,7 +807,7 @@ footer {
 .rss-subscribe a {
   color: #282828; }
 .rss-subscribe a:hover {
-  color: #FF6603; }
+  color: #54BCEB; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
@@ -1118,7 +1118,7 @@ footer {
       width: none; } }
 
 .about-content-intro {
-  color: #FF6603;
+  color: #323232;
   font-family: "roboto", Arial, sans-serif;
   font-size: 1.5em;
   margin: 0em 0em 1em 0em; }
@@ -1138,7 +1138,7 @@ footer {
   .about-content-main a {
     color: #282828; }
   .about-content-main a:hover {
-    color: #FF6603; }
+    color: #54BCEB; }
   @media (min-width: 900px) {
     .about-content-main {
       font-size: 1.2em; } }
@@ -1313,14 +1313,14 @@ footer {
   .project-header-wrap a {
     color: #282828; }
   .project-header-wrap a:hover {
-    color: #FF6603; }
+    color: #54BCEB; }
   @media (min-width: 600px) {
     .project-header-wrap {
       margin: 3.5em auto 0em auto; } }
 
 .project-header {
   font-family: "roboto", Arial, sans-serif;
-  color: #46806E;
+  color: #54BCEB;
   font-size: 2em;
   font-weight: 700;
   margin: 0em auto;
@@ -1341,7 +1341,7 @@ footer {
       font-size: 1.2em; } }
 
 .project-linksA {
-  color: #FF6603; }
+  color: #323232; }
 
 .project-small-intro {
   font-family: "open-sans", Arial, sans-serif;
@@ -1351,10 +1351,10 @@ footer {
   .project-small-intro a {
     color: #282828; }
   .project-small-intro a:hover {
-    color: #FF6603; }
+    color: #54BCEB; }
 
 .project-content-intro {
-  color: #FF6603;
+  color: #323232;
   font-family: "roboto", Arial, sans-serif;
   font-size: 1.5em;
   margin: 0.5em 0em 0.5em 0.5em; }
