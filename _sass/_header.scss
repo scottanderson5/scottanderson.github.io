@@ -8,6 +8,11 @@ header{
 	//margin-top: 1em;
 }
 
+.headerlogo{
+	width: 1.4em;
+	padding-top: 0.2em;
+}
+
 .header-wrap{
 	background-color: $HeaderWrapBackgroundColor;
 	height: 5.9em;
@@ -18,7 +23,7 @@ header{
 	}
 
 	@media (min-width: 900px){
-		height: 6.78em;
+		height: 6.7em;
 	}
 }
 

@@ -317,6 +317,10 @@
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
+.headerlogo {
+  width: 1.4em;
+  padding-top: 0.2em; }
+
 .header-wrap {
   background-color: #54BCEB;
   height: 5.9em;
@@ -326,7 +330,7 @@
       height: 5.60em; } }
   @media (min-width: 900px) {
     .header-wrap {
-      height: 6.78em; } }
+      height: 6.7em; } }
 
 .site-header {
   background-color: #323232;
@@ -379,7 +383,7 @@
   padding-top: 0.5em; }
   .label a {
     text-decoration: none;
-    color: #F8F7F3; }
+    color: #EEEBE8; }
   @media (min-width: 900px) {
     .label {
       font-size: 1.5em;
@@ -410,7 +414,7 @@
       font-size: 1.5em; } }
 
 .page-link:hover {
-  color: #54BCEB; }
+  color: #B5E1ED; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
@@ -497,7 +501,7 @@
     .col-12:last-child {
       margin-right: auto; } }
 body {
-  background-color: #F8F7F3; }
+  background-color: #FFFFFF; }
 
 .main-body {
   margin: 3em 0em 0em 7em; }
@@ -515,7 +519,7 @@ body {
 
 .indi-header {
   font-family: "roboto", Arial, sans-serif;
-  color: #54BCEB;
+  color: #323232;
   font-size: 2em;
   font-weight: 700;
   margin: 0em auto;
@@ -654,7 +658,7 @@ footer {
   color: white; }
 
 .social-icon:hover {
-  color: #54BCEB; }
+  color: #B5E1ED; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
@@ -756,7 +760,7 @@ footer {
     text-decoration: none;
     color: #282828; }
   .post-list a:hover {
-    color: #54BCEB; }
+    color: #B5E1ED; }
   .post-list h2 {
     margin-bottom: 0.3em; }
 
@@ -792,7 +796,7 @@ footer {
   .post-content a {
     color: #282828; }
   .post-content a:hover {
-    color: #54BCEB; }
+    color: #B5E1ED; }
   @media (min-width: 600px) {
     .post-content {
       width: none; } }
@@ -807,7 +811,7 @@ footer {
 .rss-subscribe a {
   color: #282828; }
 .rss-subscribe a:hover {
-  color: #54BCEB; }
+  color: #B5E1ED; }
 
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
@@ -1118,7 +1122,7 @@ footer {
       width: none; } }
 
 .about-content-intro {
-  color: #323232;
+  color: #54BCEB;
   font-family: "roboto", Arial, sans-serif;
   font-size: 1.5em;
   margin: 0em 0em 1em 0em; }
@@ -1138,7 +1142,7 @@ footer {
   .about-content-main a {
     color: #282828; }
   .about-content-main a:hover {
-    color: #54BCEB; }
+    color: #B5E1ED; }
   @media (min-width: 900px) {
     .about-content-main {
       font-size: 1.2em; } }
@@ -1313,14 +1317,14 @@ footer {
   .project-header-wrap a {
     color: #282828; }
   .project-header-wrap a:hover {
-    color: #54BCEB; }
+    color: #B5E1ED; }
   @media (min-width: 600px) {
     .project-header-wrap {
       margin: 3.5em auto 0em auto; } }
 
 .project-header {
   font-family: "roboto", Arial, sans-serif;
-  color: #54BCEB;
+  color: #323232;
   font-size: 2em;
   font-weight: 700;
   margin: 0em auto;
@@ -1341,7 +1345,7 @@ footer {
       font-size: 1.2em; } }
 
 .project-linksA {
-  color: #323232; }
+  color: #54BCEB; }
 
 .project-small-intro {
   font-family: "open-sans", Arial, sans-serif;
@@ -1351,10 +1355,10 @@ footer {
   .project-small-intro a {
     color: #282828; }
   .project-small-intro a:hover {
-    color: #54BCEB; }
+    color: #B5E1ED; }
 
 .project-content-intro {
-  color: #323232;
+  color: #54BCEB;
   font-family: "roboto", Arial, sans-serif;
   font-size: 1.5em;
   margin: 0.5em 0em 0.5em 0.5em; }
@@ -1399,6 +1403,12 @@ footer {
   @media (min-width: 900px) {
     .project-pic-right {
       padding-top: 10%; } }
+  @media (min-width: 1200px) {
+    .project-pic-right {
+      padding-top: 5%; } }
+  @media (min-width: 1400px) {
+    .project-pic-right {
+      padding-top: 2%; } }
 
 .project-pic-rightRA {
   padding-top: 1em;
