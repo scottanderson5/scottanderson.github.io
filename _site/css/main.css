@@ -1409,6 +1409,9 @@ footer {
   @media (min-width: 1400px) {
     .project-pic-right {
       padding-top: 2%; } }
+  @media (min-width: 1550px) {
+    .project-pic-right {
+      padding-top: 1%; } }
 
 .project-pic-rightRA {
   padding-top: 1em;
