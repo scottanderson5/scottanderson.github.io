@@ -36,7 +36,7 @@ Yes, yes I can. I just need to keep at it.
 
 Also, finding a proper learning method is crucial for me. The immersive culture and style that I experienced at The Iron Yard is absolutely the best route. However, my life doesn't put an option like that in play....for now.
 
-In the meantime, I am reading about Javascript. Why? Because a foundation is the best starting place, like the man in the Bible who built his house upon the rock. By grasping a strong understanding of the language, I can understand what I am doing, and what is going on, before I delve too deep into the code. Let's learn all we can about it first, and then lets go play in the sandbox. Better to understand the tool before using them.
+In the meantime, I am reading about Javascript. Why? Because a foundation is the best starting place, like the man in the Bible who built his house upon the rock. By grasping a strong understanding of the language, I can understand what I am doing, and what is going on, before I delve too deep into the code. Let's learn all we can about it first, and then lets go play in the sandbox. Better to understand the tools before using them.
 
 It was take some time, patience, effort, feedback (love that one), advice, mentoring, and most importantly...practice.
 
