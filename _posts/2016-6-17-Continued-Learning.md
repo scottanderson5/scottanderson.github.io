@@ -26,9 +26,21 @@ Very hard.
 
 Fast forward a few months and here I am, signed up for Codeacademy's Javascript course. I am trying to figure all of this stuff out, trying to make it compute. 
 
-I had some Javascript experience in class at The Iron Yard, but that was only for a couple of days. But during that time I felt like I was beginning to grasp it and get pumped about it. But now I am back at square one, frustrated, and starting to wonder if I can do this.
+I had some Javascript experience in class at The Iron Yard, but that was only for a couple of days. But during that time I felt like I was beginning to grasp it and get pumped about it. But now I am back at square one, frustrated, and starting to stress a little bit, just like my front-ender friends were.
 
 I'm thinking that there must be other methods of learning out there, and there are. I download a Javascript game, if you can call it that, on my phone so that I can learn while on the go. Again, not the best method of learning for me. 
 
 *Can I do this?*
+
+Yes, yes I can. I just need to keep at it. 
+
+Also, finding a proper learning method is crucial for me. The immersive culture and style that I experience at The Iron Yard is absolutely the best route. However, my life doesn't put an option like that in play....for now.
+
+In the meantime, I am reading about Javascript. Why? Because a foundation is the best starting place, like the man in the Bible who built his house upon the rock. By grasping a strong understanding of the language, I can understand what I am doing, and what is going on, before I delve too deep into the code. Let's learn all we can about it first, and then lets go play in the sandbox. Better to understand the tool before using them.
+
+It was take some time, patience, effort, feedback (love that one), advice, mentoring, and most importantly...practice.
+
+Practice makes perfect, after all.
+
+*I can do this.*
 
