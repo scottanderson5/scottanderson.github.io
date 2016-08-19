@@ -12,7 +12,9 @@ By no means am I the best person ever when it comes to, say, CSS. I'm very stron
 
 There are two reasons why I want to continue the learning process: To improve my overall abilities and because I like it. That's great motivation for me. However finding the time to learn and developing a new system for doing so is a hinderance. A big one.
 
-*Not to mention...Javascript is hard*
+Not to mention...Javascript is hard.
+
+*Can I do this?*
 
 There is a big reason why knowing the Javascript language is desired by so many people, companies, agencies, etc. Not many people can do it. Not many people can do it well. 
 
@@ -22,5 +24,11 @@ Very hard.
 
 *Can I do this?*
 
-Fast forward a few months and here I am, signed up for Codeacademy's Javascript course. 
+Fast forward a few months and here I am, signed up for Codeacademy's Javascript course. I am trying to figure all of this stuff out, trying to make it compute. 
+
+I had some Javascript experience in class at The Iron Yard, but that was only for a couple of days. But during that time I felt like I was beginning to grasp it and get pumped about it. But now I am back at square one, frustrated, and starting to wonder if I can do this.
+
+I'm thinking that there must be other methods of learning out there, and there are. I download a Javascript game, if you can call it that, on my phone so that I can learn while on the go. Again, not the best method of learning for me. 
+
+*Can I do this?*
 
