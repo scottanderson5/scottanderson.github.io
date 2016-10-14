@@ -139,7 +139,7 @@
 	}
 
 	@media (min-width: 1550px){
-		padding-top: 1%;
+		padding-top: 1em;
 	}
 }
 
@@ -156,6 +156,10 @@
 	@media (min-width: 900px){
 		padding-top: 3%;
 	}
+
+	@media (min-width: 1200px){
+		padding-top: 1em;
+	}
 }
 
 .project-pic-rightZG{
@@ -170,6 +174,10 @@
 
 	@media (min-width: 900px){
 		padding-top: 3%;
+	}
+
+	@media (min-width: 1200px){
+		padding-top: 1em;
 	}
 }
 

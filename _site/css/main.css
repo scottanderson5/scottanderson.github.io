@@ -91,6 +91,9 @@
 @media (min-width: 1000px) {
   .homepage-main {
     height: 110%; } }
+@media (min-width: 1600px) {
+  .homepage-main {
+    height: 130%; } }
 
 .homepage-introA {
   margin: 1em auto 0em 1em;
@@ -900,12 +903,6 @@ footer {
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
-.home {
-  overflow-y: auto; }
-  @media (min-width: 1100px) {
-    .home {
-      height: 900px; } }
-
 .work-row {
   margin: 0 auto 2em auto;
   padding: 0em 0em 1.5em 0em;
@@ -1419,7 +1416,7 @@ footer {
       padding-top: 2%; } }
   @media (min-width: 1550px) {
     .project-pic-right {
-      padding-top: 1%; } }
+      padding-top: 1em; } }
 
 .project-pic-rightRA {
   padding-top: 1em;
@@ -1431,6 +1428,9 @@ footer {
   @media (min-width: 900px) {
     .project-pic-rightRA {
       padding-top: 3%; } }
+  @media (min-width: 1200px) {
+    .project-pic-rightRA {
+      padding-top: 1em; } }
 
 .project-pic-rightZG {
   padding-top: 1em;
@@ -1442,6 +1442,9 @@ footer {
   @media (min-width: 900px) {
     .project-pic-rightZG {
       padding-top: 3%; } }
+  @media (min-width: 1200px) {
+    .project-pic-rightZG {
+      padding-top: 1em; } }
 
 .foundations-pic-size {
   float: right;
