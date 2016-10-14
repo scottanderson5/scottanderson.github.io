@@ -935,7 +935,6 @@ footer {
   position: absolute;
   font-size: 0.9em;
   color: white;
-  opacity: 0;
   transition: 1s;
   width: 36%; }
   @media (min-width: 600px) {
@@ -958,9 +957,9 @@ footer {
       padding-top: 15%;
       margin: 0em 0em 0em 0.5em; } }
 
-.descriptionE:hover {
-  opacity: 1; }
-
+/*.descriptionE:hover{
+	opacity: 1;
+}*/
 .descriptionF {
   font-family: 'Libre Baskerville', serif;
   padding-top: 19%;

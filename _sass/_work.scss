@@ -56,7 +56,7 @@
 	position: absolute;
 	font-size: 0.9em;
 	color: white;
-	opacity: 0;
+	//opacity: 0;
 	transition: 1s;
 	width: 36%;
 
@@ -86,9 +86,10 @@
 	}
 }
 
-.descriptionE:hover{
+
+/*.descriptionE:hover{
 	opacity: 1;
-}
+}*/	
 
 .descriptionF{
 	@extend %description;
