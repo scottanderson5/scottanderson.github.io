@@ -88,6 +88,9 @@
 @media (min-width: 900px) {
   .homepage-main {
     height: 65em; } }
+@media (min-width: 1000px) {
+  .homepage-main {
+    height: 110%; } }
 
 .homepage-introA {
   margin: 1em auto 0em 1em;
@@ -897,6 +900,12 @@ footer {
     margin-right: 2%; }
     .col-12:last-child {
       margin-right: auto; } }
+.home {
+  overflow-y: auto; }
+  @media (min-width: 1100px) {
+    .home {
+      height: 900px; } }
+
 .work-row {
   margin: 0 auto 2em auto;
   padding: 0em 0em 1.5em 0em;
@@ -957,9 +966,9 @@ footer {
       padding-top: 15%;
       margin: 0em 0em 0em 0.5em; } }
 
-/*.descriptionE:hover{
-	opacity: 1;
-}*/
+.descriptionE:hover {
+  opacity: 1; }
+
 .descriptionF {
   font-family: 'Libre Baskerville', serif;
   padding-top: 19%;
