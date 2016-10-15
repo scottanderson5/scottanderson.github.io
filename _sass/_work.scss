@@ -11,6 +11,21 @@
 	text-align: center;
 }
 
+.desaturate {
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
+    filter: url(/elements/grayscale.svg#desaturate); 
+    filter: gray;  
+    -webkit-filter: grayscale(1); 
+}
+
+.desaturate:hover {
+    filter: grayscale(0%);
+    filter: none;
+    -webkit-filter: grayscale(0); 
+}
+
+
 %work-picture{
 	overflow: hidden;
 	width: 46%;
@@ -87,9 +102,9 @@
 }
 
 
-.descriptionE:hover{
+/*.descriptionE:hover{
 	opacity: 1;
-}
+}*/
 
 .descriptionF{
 	@extend %description;
@@ -103,9 +118,9 @@
 	}
 }
 
-.descriptionF:hover{
+/*.descriptionF:hover{
 	opacity: 1;
-}
+}*/
 
 .descriptionA{
 	@extend %description;
@@ -119,9 +134,9 @@
 	}
 }
 
-.descriptionA:hover{
+/*.descriptionA:hover{
 	opacity: 1;
-}
+}*/
 
 .descriptionB{
 	@extend %description;
@@ -136,9 +151,9 @@
 	}
 }
 
-.descriptionB:hover{
+/*.descriptionB:hover{
 	opacity: 1;
-}
+}*/
 
 .descriptionC{
 	@extend %description;
@@ -156,9 +171,9 @@
 	}	
 }
 
-.descriptionC:hover{
+/*.descriptionC:hover{
 	opacity: 1;
-}
+}*/
 
 .descriptionD{
 	@extend %description;
@@ -177,6 +192,7 @@
 	}
 }
 
-.descriptionD:hover{
+/*.descriptionD:hover{
 	opacity: 1;
-}
+}*/
+

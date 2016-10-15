@@ -909,6 +909,18 @@ footer {
   overflow: hidden;
   text-align: center; }
 
+.desaturate {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: url(/elements/grayscale.svg#desaturate);
+  filter: gray;
+  -webkit-filter: grayscale(1); }
+
+.desaturate:hover {
+  filter: grayscale(0%);
+  filter: none;
+  -webkit-filter: grayscale(0); }
+
 .work-pictureA, .work-pictureB, .work-pictureC, .work-pictureD {
   overflow: hidden;
   width: 46%; }
@@ -963,9 +975,9 @@ footer {
       padding-top: 15%;
       margin: 0em 0em 0em 0.5em; } }
 
-.descriptionE:hover {
-  opacity: 1; }
-
+/*.descriptionE:hover{
+	opacity: 1;
+}*/
 .descriptionF {
   font-family: 'Noto Sans', serif;
   padding-top: 19%;
@@ -975,9 +987,9 @@ footer {
       margin: 0em;
       padding-top: 15%; } }
 
-.descriptionF:hover {
-  opacity: 1; }
-
+/*.descriptionF:hover{
+	opacity: 1;
+}*/
 .descriptionA {
   font-family: 'Noto Sans', Arial, sans-serif;
   padding-top: 21%;
@@ -987,9 +999,9 @@ footer {
       padding-top: 15%;
       margin: 0em 0em 0em 0.5em; } }
 
-.descriptionA:hover {
-  opacity: 1; }
-
+/*.descriptionA:hover{
+	opacity: 1;
+}*/
 .descriptionB {
   font-family: 'Noto Sans', Arial, sans-serif;
   font-weight: 500;
@@ -1000,9 +1012,9 @@ footer {
       margin: 0em;
       padding-top: 15%; } }
 
-.descriptionB:hover {
-  opacity: 1; }
-
+/*.descriptionB:hover{
+	opacity: 1;
+}*/
 .descriptionC {
   font-family: 'Noto Sans', Arial, sans-serif;
   padding-top: 17%;
@@ -1015,9 +1027,9 @@ footer {
     .descriptionC {
       padding-top: 15%; } }
 
-.descriptionC:hover {
-  opacity: 1; }
-
+/*.descriptionC:hover{
+	opacity: 1;
+}*/
 .descriptionD {
   font-family: 'Noto Sans', Arial, sans-serif;
   font-weight: 500;
@@ -1031,9 +1043,9 @@ footer {
     .descriptionD {
       padding-top: 15%; } }
 
-.descriptionD:hover {
-  opacity: 1; }
-
+/*.descriptionD:hover{
+	opacity: 1;
+}*/
 /*********** GRID LAYOUT ***************/
 /*************** ROW AND COL FOR GRID ***********/
 .row {
