@@ -967,7 +967,7 @@ footer {
   opacity: 1; }
 
 .descriptionF {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Noto Sans', serif;
   padding-top: 19%;
   margin: 0em 0em 0em 1em; }
   @media (min-width: 600px) {
@@ -979,7 +979,7 @@ footer {
   opacity: 1; }
 
 .descriptionA {
-  font-family: 'industry-inc-stencil', Arial, sans-serif;
+  font-family: 'Noto Sans', Arial, sans-serif;
   padding-top: 21%;
   margin: 0em 0em 0em 2em; }
   @media (min-width: 600px) {
@@ -991,7 +991,7 @@ footer {
   opacity: 1; }
 
 .descriptionB {
-  font-family: 'source-sans-pro', Arial, sans-serif;
+  font-family: 'Noto Sans', Arial, sans-serif;
   font-weight: 500;
   padding-top: 21%;
   margin: 0em 0em 0em 1em; }
@@ -1004,7 +1004,7 @@ footer {
   opacity: 1; }
 
 .descriptionC {
-  font-family: 'adelle', Arial, sans-serif;
+  font-family: 'Noto Sans', Arial, sans-serif;
   padding-top: 17%;
   margin: 0em 0em 0em 2em; }
   @media (min-width: 600px) {
@@ -1019,7 +1019,7 @@ footer {
   opacity: 1; }
 
 .descriptionD {
-  font-family: 'roboto', Arial, sans-serif;
+  font-family: 'Noto Sans', Arial, sans-serif;
   font-weight: 500;
   padding-top: 21%;
   margin: 0em 0em 0em 1em; }
