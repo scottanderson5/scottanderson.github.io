@@ -914,7 +914,8 @@ footer {
   -webkit-filter: grayscale(100%);
   filter: url(/elements/grayscale.svg#desaturate);
   filter: gray;
-  -webkit-filter: grayscale(1); }
+  -webkit-filter: grayscale(1);
+  transition: 1s; }
 
 .desaturate:hover {
   filter: grayscale(0%);
@@ -953,7 +954,6 @@ footer {
   position: absolute;
   font-size: 0.9em;
   color: white;
-  transition: 1s;
   width: 36%; }
   @media (min-width: 600px) {
     .descriptionE, .descriptionF, .descriptionA, .descriptionB, .descriptionC, .descriptionD {

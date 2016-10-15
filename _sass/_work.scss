@@ -17,6 +17,7 @@
     filter: url(/elements/grayscale.svg#desaturate); 
     filter: gray;  
     -webkit-filter: grayscale(1); 
+    transition: 1s;
 }
 
 .desaturate:hover {
@@ -72,7 +73,7 @@
 	font-size: 0.9em;
 	color: white;
 	//opacity: 0;
-	transition: 1s;
+	//transition: 1s;
 	width: 36%;
 
 	@media (min-width: 600px){
